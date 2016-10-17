@@ -1,6 +1,6 @@
 ---
-layout: legal
+layout: legal-index
 title: Vaystays
-permalink: /legal
+permalink: /legal/
 ---
 Legal docs.

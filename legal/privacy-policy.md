@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: legal-subpage
 title: Privacy Policy
 permalink: /legal/privacy-policy
 ---

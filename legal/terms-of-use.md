@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: legal-subpage
 title: Terms of Use
 permalink: /legal/terms-of-use
 ---

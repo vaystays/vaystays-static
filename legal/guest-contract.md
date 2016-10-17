@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: legal-subpage
 title: Sample Guest Contract
 permalink: /legal/guest-contract
 ---

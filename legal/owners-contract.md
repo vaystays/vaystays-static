@@ -1,5 +1,5 @@
 ---
-layout: legal
+layout: legal-subpage
 title: Property Owner Contract
 permalink: /legal/owner-contract
 ---

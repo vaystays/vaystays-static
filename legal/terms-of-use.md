@@ -1,6 +1,7 @@
 ---
 layout: legal
 title: Terms of Use
+permalink: /legal/terms-of-use
 ---
 
 # TERMS AND CONDITIONS OF THE VACATION RENTAL PARTNERS LLC ("the Company" or "Vaystays") SERVICE

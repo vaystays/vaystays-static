@@ -1,6 +1,7 @@
 ---
 layout: legal
 title: Property Owner Contract
+permalink: /legal/owner-contract
 ---
 
 Please take the time to review our sample property owner contract.

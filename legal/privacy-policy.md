@@ -1,6 +1,7 @@
 ---
 layout: legal
 title: Privacy Policy
+permalink: /legal/privacy-policy
 ---
 
 # PRIVACY POLICY OF THE VACATION RENTAL PARTNERS LLC ("the Company" or "Vaystays") SERVICE

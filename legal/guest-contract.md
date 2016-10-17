@@ -1,6 +1,7 @@
 ---
 layout: legal
 title: Sample Guest Contract
+permalink: /legal/guest-contract
 ---
 Please take the time to review our sample guest contract.
 

@@ -1,6 +1,8 @@
 ---
 layout: careers-subpage
-title: About
+title: "Vaystays Careers : Full-stack Engineer"
+display_title: Full-stack Engineer
+permalink: /careers/full-stack-engineer
 ---
 
 # About the Position

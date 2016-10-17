@@ -1,4 +1,5 @@
 ---
 layout: about-subpage
-title: About
+title: About Vaystays
+permalink: /about
 ---

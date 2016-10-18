@@ -1,6 +1,16 @@
-<footer>
-  Vaystays Footer
-  {% include footer-social.html %}
-  {% include footer-mail.html %}
-  {% include footer-legal.html %}
+<footer class="site-footer">
+  <figure class="site-footer-logo">
+    <a href="https://www.vaystays.com" title="Vaystays">
+      <img alt="Vaystays"/>
+    </a>
+  </figure>
+  <section class="site-footer-content">
+    <section class="site-footer-links">
+      {% include footer-links.html %}
+    </section>
+    <section class="site-footer-figures">
+      {% include footer-mail.html %}
+      {% include footer-social.html %}
+    </section>
+  </section>
 </footer>

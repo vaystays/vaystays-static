@@ -1,0 +1,31 @@
+.wrapper-s,
+.wrapper,
+.wrapper-l,
+.wrapper-max {
+  padding: 2*$em;
+  margin: auto;
+  width: 100%;
+}
+.wrapper-m-l {
+  max-width: $m-l;  //800
+}
+.wrapper {
+  max-width: $l-xl;  //1024
+}
+.wrapper-l {
+  max-width: $xl;  //1280
+}
+.wrapper-max {
+  padding: 0 2*$em;
+  margin: 2*$em auto;
+}
+.align-center {
+  text-align: center;
+}
+
+p + *,
+ul + p,
+img + p,
+object + p {
+  margin-top: 1.414*$em;
+}

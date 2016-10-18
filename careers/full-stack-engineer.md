@@ -8,6 +8,7 @@ permalink: /careers/full-stack-engineer/
 ---
 
 ## About the Position
+
 ### In Brief
 Vaystays is looking for technical experts to grow and lead our engineering team. If you are an expert in modern web technologies, skilled in architecting scalable Rails applications, and passionate about API-driven design patterns in a fast-moving startup, we are looking for you.
 

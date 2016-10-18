@@ -5,6 +5,7 @@ permalink: /legal/terms-of-use
 ---
 
 # TERMS AND CONDITIONS OF THE VACATION RENTAL PARTNERS LLC ("the Company" or "Vaystays") SERVICE
+
 ## Updated July 15, 2014
 
 ### 1. How this agreement works.

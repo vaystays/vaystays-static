@@ -1,0 +1,29 @@
+.site-preheader {
+  display: none;
+  @media screen and (min-width: $m-l) {
+    border-bottom: 1px solid red;
+    display: flex;
+    @include align-items(center);
+    @include flex-direction(row);
+    @include justify-content(flex-end);
+    height: 1.414*$em;
+    padding: 0 $em;
+    text-transform: uppercase;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    ul {
+      @include display(flex);
+      @include flex-direction(row);
+      font-size: .707*$em;
+    }
+    li {
+      margin-left: $em;
+    }
+  }
+}
+.site-header {
+ background: whitesmoke;
+ margin-top: 1.414*$em;
+ position: relative;
+}

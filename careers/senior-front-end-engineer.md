@@ -8,6 +8,7 @@ permalink: /careers/senior-front-end-engineer/
 ---
 
 ## About the Position
+
 ###In Brief
 Vaystays is looking for technical experts in the front end engineering. If you are an expert in modern web technologies, skilled in architecting web applications, and passionate about front-end design patterns, we are looking for you.
 

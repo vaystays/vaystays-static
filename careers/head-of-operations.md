@@ -8,6 +8,7 @@ permalink: /careers/head-of-operations/
 ---
 
 ## About the Position
+
 ### In Brief
 Vaystays is seeking an experienced leader to manage our operations team in Chicago. Ideal candidates will be meticulously organized, willing and able to hold subordinates accountable, and have a background leading business operations and/or sales. Past experience leading a startup team from early to late stage a huge plus.
 

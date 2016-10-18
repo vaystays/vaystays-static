@@ -8,6 +8,7 @@ permalink: /careers/business-development-specialist/
 ---
 
 ## About the Position
+
 ### In Brief
 Vaystays is seeking an experienced business development professional to forge relationships with vacation rental property managers around the globe.
 

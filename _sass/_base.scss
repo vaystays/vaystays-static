@@ -1,0 +1,17 @@
+body {
+  font-family: $text-serif;
+  line-height: 1.44;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+::-moz-selection {
+}
+::selection {
+}
+
+img {
+  max-width: 100%;
+}

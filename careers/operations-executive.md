@@ -8,6 +8,7 @@ permalink: /careers/operations-executive/
 ---
 
 ## About the Position
+
 ### In Brief
 Vaystays is seeking ambitious young professionals to join our operations team in Chicago. Ideal candidates will be meticulously organized, accountable, easy going, and willing to wear different hats. Strong interpersonal skills is a must, and past experience with sales and/or customer support is a plus.
 The overall role of the Account Executive (AE) is to execute on all operations relevant to the strategic and business objectives at the company, and to meet the goals set forth by the management team monthly.

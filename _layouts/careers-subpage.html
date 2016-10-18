@@ -6,12 +6,17 @@
     {% include header.html %}
     <main class="page-content page-content-with-sidebar">
       {% include nav-careers.html %}
+      {% include back-careers.html %}
       <div class="wrapper">
+        {{ page.title }}
+        {{ page.type }}
+        {{ page.location }}
         {% include careers-content-header.html %}
         {{ content }}
         {% include careers-content-footer.html %}
       </div>
     </main>
     {% include footer.html %}
+    {% include postfooter.html %}
   </body>
 </html>

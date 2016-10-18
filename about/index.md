@@ -1,6 +1,6 @@
 ---
 layout: about-index
 title: About Vaystays
-permalink: /about/
+permalink: /
 ---
 About docs.

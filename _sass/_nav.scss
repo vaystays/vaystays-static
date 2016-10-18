@@ -1,0 +1,12 @@
+.navigation-page-tree {
+  display: none;
+  @media screen and (min-width: $m-l) {
+    display: block;
+  }
+}
+.navigation-page-tree ul {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include justify-content(space-between);
+  display: flex;
+}

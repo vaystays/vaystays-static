@@ -6,10 +6,12 @@ permalink: /legal/guest-contract
 Please take the time to review our sample guest contract.
 
 # Vacation Rental Partners LLC ("Vaystays") Rental Contract
+
 ## Updated July 15, 2014
 
-Guest(s) understand that Vacation Rental Partners LLC ("the Company" or "Vaystays") is not a party to this rental contract, and is merely acting as an agent for the parties. Guest(s), in consideration of Owner permitting them to occupy the above property, hereby agrees to the following terms:
+Guest(s) understand that Vacation Rental Partners LLC ("the Company" or "Vaystays") is not a party to this rental contract, and is merely acting as an agent for the parties.
 
+Guest(s), in consideration of Owner permitting them to occupy the above property, hereby agrees to the following terms:
 
 ### 1. RENT
 To pay as rental the sum listed on the site for the event to be rented.

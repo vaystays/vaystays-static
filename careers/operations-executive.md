@@ -4,7 +4,7 @@ title: "Vaystays Careers : Operations Executive"
 display_title: Operations Executive
 type: Full-time
 location: On-site
-permalink: /careers/operations-executive
+permalink: /careers/operations-executive/
 ---
 
 ## About the Position

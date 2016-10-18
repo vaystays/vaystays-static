@@ -4,7 +4,7 @@ title: "Vaystays Careers : Senior Front-End Engineer"
 display_title: Senior Front-End Engineer
 type: Full-time
 location: On-site or Remote
-permalink: /careers/senior-front-end-engineer
+permalink: /careers/senior-front-end-engineer/
 ---
 
 ## About the Position

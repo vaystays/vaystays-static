@@ -1,0 +1,25 @@
+$text-sans: Helvetica Neue,"nimbus-sans",Helvetica,Arial,sans-serif;
+$text-serif: "freight-text-pro",Georgia,serif;
+$text-display: Baskerville,"baskerville-urw",Georgia,serif;
+
+$em: 16px;
+
+$s: 20*$em;
+$s-m: 30*$em;
+$m: 40*$em;
+$m-l: 50*$em;
+$l: 60*$em;
+$l-xl: 64*$em;
+$xl: 80*$em;
+$xxl: 90*$em;
+
+$transition-standard: 1.6s;
+$transition-short: .3s;
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

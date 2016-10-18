@@ -4,7 +4,7 @@ title: "Vaystays Careers : Business Development Specialist"
 display_title: Business Development Specialist
 type: Full-time
 location: On-site
-permalink: /careers/business-development-specialist
+permalink: /careers/business-development-specialist/
 ---
 
 ## About the Position

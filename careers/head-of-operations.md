@@ -4,7 +4,7 @@ title: "Vaystays Careers : Head of Operations"
 display_title: Head of Operations
 type: Full-time
 location: On-site
-permalink: /careers/head-of-operations
+permalink: /careers/head-of-operations/
 ---
 
 ## About the Position

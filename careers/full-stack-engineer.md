@@ -4,7 +4,7 @@ title: "Vaystays Careers : Full-Stack Engineer"
 display_title: Full-Stack Engineer
 type: Full-time
 location: On-site or Remote
-permalink: /careers/full-stack-engineer
+permalink: /careers/full-stack-engineer/
 ---
 
 ## About the Position

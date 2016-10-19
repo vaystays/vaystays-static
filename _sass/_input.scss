@@ -3,6 +3,7 @@ input[type="email"] {
   @include placeholder-text {
     color: $color-light-gray;
   }
+  background: $color-white;
   border: 1px solid $color-light-gray;
   border-radius: 0;
   color: $color-darker-gray;
@@ -18,5 +19,27 @@ input[type="email"] {
   &:focus {
     border-color: $color-aqua-blue;
     outline: none;
+  }
+}
+label {
+  color: $color-darker-gray;
+  font-family: $regular-avenir;
+  font-size: .707*$em;
+  padding: .707*$em 0 .17675*$em;
+}
+
+input[type="submit"] {
+  background: $color-orange;
+  border: 1px solid $color-dark-orange;
+  border-radius: 0;
+  color: $color-white;
+  cursor: pointer;
+  font-size: .88375*$em;
+  line-height: 1;
+  padding: .707*$em;
+  -webkit-appearance: none;
+  width: 100%;
+  &:hover {
+    background: lighten($color-orange, 5);
   }
 }

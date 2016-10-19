@@ -1,0 +1,20 @@
+.icon {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: $em;
+  width: $em;
+  &.icon-facebook {
+    background-image: url('/assets/svg/icon_facebook.svg');
+  }
+  &.icon-twitter {
+    background-image: url('/assets/svg/icon_twitter.svg');
+  }
+  &.icon-instagram {
+    background-image: url('/assets/svg/icon_instagram.svg');
+  }
+  &.icon-pinterest {
+    background-image: url('/assets/svg/icon_pinterest.svg');
+  }
+}

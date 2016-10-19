@@ -1,4 +1,6 @@
 .site-footer {
+  color: $color-medium-gray;
+  font-family: $medium-avenir;
   padding: 1.999*$em $em;
   @media screen and (min-width: $m-l) {
     padding: 2.827*$em $em;
@@ -32,24 +34,52 @@
       @media screen and (min-width: $m-l) {
         width: $s-m;
       }
+      a {
+        color: $color-medium-gray;
+        font-size: .707*$em;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          color: $color-link-blue;
+          text-decoration: underline;
+        }
+      }
+      ul:first-of-type li:nth-of-type(2) {
+        margin-bottom: $em;
+      }
     }
     .site-footer-figures {
       @include align-items(center);
       @include flex-direction(column);
       @include justify-content(flex-end);
       display: flex;
+      max-width: $s;
+      width: 100%;
       @media screen and (min-width: $m-l) {
         @include align-items(flex-end);
-        width: $s;
+      }
+      .site-footer-mailer {
+        width: 100%;
+        @media screen and (min-width: $m-l) {
+          border-bottom: 1px solid $color-background-gray;
+          margin-bottom: .707*$em;
+          padding-bottom: .707*$em;
+        }
       }
       .site-footer-social-links {
+        width: 50%;
         ul {
           @include align-items(center);
           @include flex-direction(row);
           @include justify-content(space-between);
           display: flex;
+          width: 100%;
           @media screen and (min-width: $s-m) {
             @include align-items(flex-end);
+          }
+          .icon {
+            height: 1.414*$em;
+            width: 1.414*$em;
           }
         }
       }
@@ -57,8 +87,10 @@
   }
 }
 .site-postfooter {
-  background: whitesmoke;
-  padding: 0 $em;
+  background: $color-background-gray;
+  color: $color-dark-gray;
+  font-family: $medium-avenir;
+  padding: .707*$em $em;
   .site-postfooter-content {
     @include align-items(center);
     @include flex-direction(column);
@@ -66,9 +98,27 @@
     display: flex;
     margin: auto;
     max-width: $xl;
+    text-align: center;
     width: 100%;
     @media screen and (min-width: $m-l) {
     @include flex-direction(row);
+    }
+  }
+  a {
+    color: $color-darker-gray;
+    text-decoration: none;
+    &:hover {
+      color: $color-link-blue;
+      text-decoration: underline;
+    }
+  }
+  small {
+    display: inline-block;
+  }
+  .site-postfooter-logo {
+    img {
+      height: 24px;
+      vertical-align: middle;
     }
   }
 }

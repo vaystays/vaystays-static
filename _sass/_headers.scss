@@ -1,7 +1,7 @@
 .site-preheader {
   display: none;
   @media screen and (min-width: $m-l) {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid $color-background-gray;
     display: flex;
     @include align-items(center);
     @include flex-direction(row);
@@ -19,11 +19,35 @@
     }
     li {
       margin-left: $em;
+      a {
+        color: $color-medium-gray;
+        font-family: $medium-avenir;
+        text-decoration: none;
+        &:hover {
+          color: $color-link-blue;
+          text-decoration: underline;
+        }
+      }
+      .icon {
+        height: .707*$em;
+        width: .707*$em;
+      }
     }
   }
 }
 .site-header {
- background: whitesmoke;
- margin-top: 1.414*$em;
- position: relative;
+  @include align-items(center);
+  @include flex-direction(row);
+  @include justify-content(center);
+  border-bottom: 1px solid $color-background-gray;
+  display: flex;
+  padding: .707*$em $em;
+  position: relative;
+  @media screen and (min-width: $m-l) {
+    @include justify-content(space-between);
+    margin-top: 1.414*$em;
+  }
+  .header-logo {
+    height: 48px;
+  }
 }

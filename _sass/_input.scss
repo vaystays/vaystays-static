@@ -1,0 +1,22 @@
+input[type="text"],
+input[type="email"] {
+  @include placeholder-text {
+    color: $color-light-gray;
+  }
+  border: 1px solid $color-light-gray;
+  border-radius: 0;
+  color: $color-darker-gray;
+  display: block;
+  font-size: .88375*$em;
+  font-family: $text-serif;
+  line-height: 1;
+  outline: none;
+  transition: border-color $transition-short;
+  padding: .707*$em;
+  -webkit-appearance: none;
+  width: 100%;
+  &:focus {
+    border-color: $color-aqua-blue;
+    outline: none;
+  }
+}

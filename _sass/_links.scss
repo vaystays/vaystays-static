@@ -1,0 +1,8 @@
+a {
+  color: $color-link-blue;
+  font-family: $medium-avenir;
+  text-decoration: underline;
+  &:hover {
+    color: $color-aqua-blue;
+  }
+}

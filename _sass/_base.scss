@@ -1,7 +1,6 @@
 body {
   font-family: $text-serif;
   line-height: 1.44;
-  min-height: 100vh;
 }
 
 * {
@@ -10,6 +9,10 @@ body {
 ::-moz-selection {
 }
 ::selection {
+}
+
+.page-content {
+  min-height: 100vh;
 }
 
 img,

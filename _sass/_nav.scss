@@ -1,7 +1,6 @@
 .navigation-page-tree {
   display: none;
   @media screen and (min-width: $l) {
-    border-right: 1px solid $color-light-gray;
     display: block;
     flex-shrink: 0;
     margin-right: 2.827*$em;

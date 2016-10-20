@@ -8,9 +8,10 @@
     <main class="page-content page-content-with-sidebar">
       {% include nav-careers.html %}
       <div class="wrapper careers-content">
-        {{ page.title }}
-        {{ page.type }}
-        {{ page.location }}
+        <header class="careers-header">
+          <h2>{{ page.title }}</h2>
+          <h3><span>{{ page.type }}</span> | <span>{{ page.location }}</span></h3>
+        </header>
         {% include careers-content-header.html %}
         {{ content }}
         {% include careers-content-footer.html %}

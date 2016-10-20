@@ -1,4 +1,5 @@
 .page-content {
+  color: $color-darker-gray;
   font-family: $text-serif;
 }
 .page-content-with-sidebar {
@@ -14,7 +15,24 @@
   }
 }
 .content-footer {
-  margin-top: 1.999*$em 0;
+  border-top: 1px solid $color-aqua-blue;
+  margin-top: 1.414*$em;
+  padding-top: 1.414*$em;
+}
+.careers-header {
+  border-bottom: 1px solid $color-aqua-blue;
+  font-family: $medium-avenir;
+  padding-bottom: .707*$em;
+  text-align: center;
+  @media screen and (min-width: $m-l) {
+    text-align: left;
+  }
+  h2 {
+    margin: 0;
+  }
+  h3 {
+    margin-top: .707*$em;
+  }
 }
 .careers-content {
   ul {

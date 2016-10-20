@@ -4,22 +4,22 @@ title: Terms of Use
 permalink: /legal/terms-of-use
 ---
 
-# TERMS AND CONDITIONS OF THE VACATION RENTAL PARTNERS LLC ("the Company" or "Vaystays") SERVICE
+## TERMS AND CONDITIONS OF THE VACATION RENTAL PARTNERS LLC ("the Company" or "Vaystays") SERVICE
 
-## Updated July 15, 2014
+### Updated July 15, 2014
 
-### 1. How this agreement works.
+#### 1. How this agreement works.
 *1.1 Introduction.*
 Welcome to Vaystays's online renting and listing community (the "Site"). This User Agreement ("Agreement") lists the terms of the agreement between you and Vacation Rental Partners LLC for the renting and listing of real estate property ("property"), and all other services that we provide (the "Services"). By completing the registration process, you agree to accept the terms and conditions of this Agreement and to become a registered user of this Site.
 
 *1.2 Modification.*
 If we change this Agreement, we shall post a revised version of this Agreement here, which shall automatically replace the terms of this Agreement. Your continued use of the Site and the Services following Vaystays's posting of a revised Agreement will constitute your acceptance of the revised Agreement. If you do not agree with the terms of this Agreement or any revised version of this Agreement, do not continue to use the Services or this Site.
 
-### 2. Who we are and what we do.
+#### 2. Who we are and what we do.
 *2.1 Housing Rental Service Provider.*
 Vaystays is a website service that allows registered users who want to rent Housing ("Renters") to find properties to rent from registered users who want to list their properties, including but not limited to property Owners, Owners' agents, etc. ("Owners"). Please remember that Vaystays acts as a marketplace only to allow Renters and Owners to interact regarding property rentals. .
 
-### 3. How to become a registered user.
+#### 3. How to become a registered user.
 *3.1 Requirements.*
 To be a registered user of this Site, you must agree to accept the terms and conditions of this Agreement, and you must have a valid credit or debit card that we accept (see Section 5.2 below for further details). You may only use the Services if you are able to form legally binding contracts, are over the age of 18, and are not temporarily or indefinitely suspended from our Sites. If you do not qualify, please do not use or try to use the Services. If you are under the age of 18, you may only use this site in conjunction with and under the supervision of your parents or guardians.
 
@@ -29,7 +29,7 @@ We will not accept any request from you to rent or list a rental property before
 *3.3 Email Address and Password.*
 You will need an email address and password to access the Site and use the Services. You are solely responsible for maintaining the security of your email address and password and for all activity that occurs under your email address and password. You should not disclose your password to any other person.
 
-### 4. Listing rental properties as an Owner.
+#### 4. Listing rental properties as an Owner.
 *4.1 Listing Process.*
 A registered user who wants to list properties may list the properties in the Vaystays marketplace. As part of the listing process, the Owner assigns a rate to the property rental and provides information such as the event description, check-in date, check-out date, check-in time, check-out time, number of bedrooms, number of bathrooms, number of people property accommodates, and other amenities.
 
@@ -39,7 +39,7 @@ An Owner who lists a property (or properties) for rent on the site will do so us
 *4.3 Owner Responsibility.*
 Once an Owner confirms a reservation of a property from a Renter, the Owner is responsible for fulfilling the reservation with the exact property that the Owner listed. The Owner will be charged a convenience fee if Owner lists a property for rent and is unable to produce the exact property the Owner listed. The convenience fee will depend on how much it costs us to secure comparable or better replacement accommodations for the Renter. Vaystays is not responsible for any errors made by the Owner in the listing or pricing of a property rental and is not liable for any such errors.
 
-### 5. Finding housing and securing reservations as a Renter.
+#### 5. Finding housing and securing reservations as a Renter.
 *5.1 Making Reservations.*
 To make a reservation, a Renter first browses the Vaystays listings for housing that match what the Renter is seeking. When the Renter finds desirable accommodations, the Renter places a "booking request" to reserve the housing. All booking requests are final and, once placed, cannot be cancelled or retracted. Placing a booking request does not complete the reservation. Owners have 72 hours to receive notification of an reservation and confirm delivery. The reservation is complete and Vaystays's Guarantee to the Renter takes effect only after the Owner has confirmed the reservation and the Renter's credit or debit card has been charged.
 
@@ -53,21 +53,21 @@ Event details, check-in date, check-out date, check-in time, check-out time, num
 *5.4 Owner Comments.*
 Vaystays does not guarantee any information provided by Owners in the Owner Comments area of property listings.
 
-### 6. Notifying the Owner of the reservation.
+#### 6. Notifying the Owner of the reservation.
 *6.1 Notification.*
 Once we obtain an authorization from a Renter, we notify the Owner of the property via email and/or telephone that a Renter has reserved the listed property at the listed rate and is willing to pay the deposit that we have calculated for the rental. At this time, Vaystays verifies the authenticity of the reservation and reserves the right to cancel any reservation that it identifies as fraudulent.
 
 *6.2 Owner's Confirmation.*
 Once a home is listed as available in our system, it can be booked at any point by a guest. Once a home is booked, the Owner has confirmed that home as available for the dates promised. In the event the Owner wishes to terminate or cancel the rental at any point even prior to confirming the reservation, the Company reserves the right to charge the Owner a de-listing fee for any such cancellations and all other charges necessary to fulfill the renter's Vaystays Guarantee.
 
-### 7. Completing the booking.
+#### 7. Completing the booking.
 *7.1 Credit Card Charge.*
 Once the Owner confirms the reservation, we charge the Renter's credit card for the total reservation rate. At no time do we provide the Renter's credit card information to the Owner. The credit card charge is paid to us, and the Owner is compensated for the reservation according to the payment policy. Owners can see the exact amount of the commission that we will collect before completing the listing process and committing to list their properties for rent.
 
 *7.2 Dispute Resolution.*
 After fulfilling a reservation, if a Renter is dissatisfied with any part of his or her experience, the Renter must follow the rules for dispute resolution set forth in our Guarantee.
 
-### 8. Your relationship with us.
+#### 8. Your relationship with us.
 *8.1 Permission.*
 As a Renter, you grant Vaystays permission to charge your credit card for your rental reservation. As a Owner, if you, at any time, fail to deliver the property you've listed or deliver invalid, fraudulent, counterfeit, or a misrepresented property rental you agree to be charged the costs to recover such damages incurred by a harmed Renter. These charges may include, but are not limited to, the cost of replacement housing, coupons and gift certificates, shipping charges, refunds to the Renter, and other charges we incur to satisfy the Renter under the terms of Vaystays's Renter's Guarantee.
 
@@ -80,7 +80,7 @@ Vaystays acts as a marketplace only to allow Renters and Owners to interact rega
 *8.4 Privacy.*
 We use your information only as described in the Vaystays Privacy Policy. If you object to your Information being transferred or used in this way please do not use our services.
 
-### 9. Things we don't allow.
+#### 9. Things we don't allow.
 *9.1 Offline reservations.*
 You agree not to use the Vaystays website to (a) contact other Vaystays users, (b) invite contact with other Vaystays users, (c) solicit rentals outside of Vaystays, or (d) initiate or engage in transactions outside of Vaystays. Vaystays is not responsible for any damages or lost profits that result from Vaystays users directly contacting other Vaystays users or for any damages or lost profits resulting from transactions conducted outside of Vaystays, including transactions that originate at Vaystays and are taken offline.
 
@@ -105,7 +105,7 @@ The transfer of stolen property on Vaystays is strictly forbidden, and violates 
 *9.8 Promotional Materials.*
 The Renter name and address information is provided to Owners for the sole purpose of corresponding before, during, and after a reservation. If you are an Owner, you agree not to include in your correspondance to the Renter any promotional or other commercial material that is not provided or approved by Vaystays. This includes, without limitation, material that announces a website or invites the Renter to visit a website other than Vaystays, catalogs, business cards, business reply cards, bookmarks, coupons, flyers, solicitations or other marketing or advertising material. You agree not to separately contact the Renter at any time for any reason.
 
-### 10. Consequences.
+#### 10. Consequences.
 *10.1 Investigations.*
 We may investigate complaints and violations of our policies. You agree to cooperate fully with such investigations, including without limitation, providing us specific information regarding your right to a property.
 
@@ -118,7 +118,7 @@ You agree that Vaystays may report any activity that it suspects violates any la
 *10.4 Making Adjustments.*
 You authorize us to withhold payment or charge your credit card account any amount you owe us if (a) a rental is cancelled for any reason; (b) an adjustment is made under our Renter's Guarantee; (c) we reasonably believe that you have committed fraud or other illegal act or omission during any buying or owning activity; (d) you are not able to produce the exact accommodations that you listed on the Site; (e) you deliver incorrect or misrepresented accommodations for any reservation or portion of an reservation, (f) you otherwise owe us a specific amount. If any of these things happen, we may also deduct from any amount we owe you the amount you owe us..
 
-### 11. Your warranties to us.
+#### 11. Your warranties to us.
 *11.1 Accurate Descriptions.*
 For all properties you list as the Owner, you warrant that your descriptions of the properties accurately detail and describe the housing offered for rent. If you, at any time, deliver invalid, fraudulent, or misrepresented accommodations, Vaystays reserves the right to cancel the reservation and hold you liable for any and all charges we incur to satisfy the Renter under the terms of Vaystays's Renter's Guarantee. These charges may include, but are not limited to, cost of replacement accommodations, coupons, and gift certificates, shipping charges, and refunds to the Renter.
 
@@ -131,7 +131,7 @@ You warrant that you will comply with all applicable local, state, federal and i
 *11.4 Indemnity.*
 You agree to indemnify and hold Vaystays and (if applicable) any parent, subsidiaries, affiliates, officers, directors, attorneys, agents and employees, harmless against any claim or demand and all liabilities, costs and expenses (including reasonable attorneys' fees) incurred by Vaystays and (if applicable) any parents, subsidiaries, affiliates, officers, directors, agents, attorneys and employees that arise out of any claim asserted by a third party that involves, relates to or concerns any of your actions or omissions on this Site, including but not limited to your breach of this Agreement, or your violation of any law or the rights of a third party.
 
-### 12. What we don't warrant (disclaimers of warranties and limitations of liability).
+#### 12. What we don't warrant (disclaimers of warranties and limitations of liability).
 *12.1 No Warranty.*
 Except for the express warranties stated in this Agreement, Vaystays provides the software, site and services on an "as is" basis and "as available" basis without any warranties of any kind. Vaystays makes no warranty with respect to its software, any properties, any event, the services Vaystays provides, or that Owners or Renters will perform as promised, and Vaystays expressly disclaims all such warranties, whether express, statutory or implied, including without limitation any warranties of merchantability, title, non-infringement of third party rights or fitness for a particular purpose. This warranty disclaimer affects your legal rights, and you may also have other rights which vary from jurisdiction to jurisdiction. Some jurisdictions do not allow exclusions of implied warranties or limitations on how long an implied warranty lasts, so the above exclusion may not apply to you.
 
@@ -150,14 +150,14 @@ Vaystays reserves the right at any time to modify or discontinue, temporarily or
 *12.6 Regular Maintenance.*
 The Site could be unavailable from 12am-3am EST each morning while it is being updated and modified. During this time, the Site will be temporarily unavailable. The Vaystays Site is updated daily at 4-hour intervals. When a Owner lists a property for rent on the site, the listing may not be available for rent until the next regularly scheduled site update (up to 4 hours). Vaystays is not responsible for unrented properties resulting from these regular 4-hour site updates.
 
-### 13. We own the intellectual property rights to our Site and Service.
+#### 13. We own the intellectual property rights to our Site and Service.
 *13.1 Ownership of Intellectual Property.*
 You acknowledge and agree that (i) our patents, trademarks, trade names, service marks, copyrights and other intellectual property (collectively, "Intellectual Property") are and shall remain our sole property, and (ii) nothing in this agreement shall confer in you any right of Ownership or license rights in our Intellectual Property. In addition, you shall not now or in the future contest the validity of Vaystays's Intellectual Property.
 
 *13.2 Copyright.*
 Copyright (c) 2014, Vacation Rental Partners LLC The software and the Site, including without limitation all text, graphics, logos, buttons, icons, images, audio clips, and computer programs, are the property of Vaystays or its suppliers, and are protected by U.S. and international copyright, trademark and other laws. The compilation (meaning the collection, arrangement, and assembly) of all content on the Site is the exclusive property of Vaystays and protected by U.S. and international copyright law. Any unauthorized reproduction, modification, distribution, transmission, republication, display, or performance of the software or the content on the Site is strictly prohibited.
 
-### 14. Additional terms that affect our agreement.
+#### 14. Additional terms that affect our agreement.
 *14.1 No Agency.*
 No Agency. You and Vaystays are independent contractors, and no agency, partnership, joint venture, employer-employee or franchisor-franchisee relationship is intended or created by this Agreement.
 

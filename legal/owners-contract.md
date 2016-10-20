@@ -6,6 +6,8 @@ permalink: /legal/owner-contract
 
 Please take the time to review our sample property owner contract.
 
+## Vacation Rental Partners LLC (“Vaystays”) Owner Contract
+
 THIS USER AGREEMENT (this "Agreement") is made by and among Vacation Rental Partners LLC, an Indiana limited liability company ("the Company" or "Vaystays"), and Owner. NOW, THEREFORE, in consideration of the mutual covenants contained herein and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties to this Agreement hereby agree as follows:
 
 ### 1. (Reserved)

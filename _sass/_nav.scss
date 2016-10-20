@@ -1,7 +1,15 @@
 .navigation-page-tree {
   display: none;
-  @media screen and (min-width: $m-l) {
+  @media screen and (min-width: $l) {
+    border-right: 1px solid $color-light-gray;
     display: block;
+    flex-shrink: 0;
+    margin-right: 2.827*$em;
+    width: $s;
+  }
+  h3 {
+    font-family: $medium-avenir;
+    margin: 0 0 .3535*$em;
   }
 }
 .navigation-page-tree ul {
@@ -9,4 +17,23 @@
   @include flex-direction(column);
   @include justify-content(space-between);
   display: flex;
+  padding-bottom: .707*$em;
+  li {
+    margin-bottom: .3535*$em;
+  }
+}
+.nav-back-link {
+  border-bottom: 1px solid $color-background-gray;
+  border-top: 1px solid $color-background-gray;
+  display: block;
+  margin-top: -1px;
+  padding: 1.414*$em 1.999*$em;
+  text-align: center;
+  width: 100%;
+  @media screen and (min-width: $m-l) {
+    text-align: left;
+  }
+  @media screen and (min-width: $l) {
+    display: none;
+  }
 }

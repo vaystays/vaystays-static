@@ -30,12 +30,12 @@
       @include justify-content(space-between);
       display: flex;
       @media screen and (min-width: $s-m) {
+        @include align-items(flex-start);
         @include flex-direction(row);
         max-width: $m;
         width: 100%;
       }
       @media screen and (min-width: $m-l) {
-        @include align-items(flex-start);
         margin-right: 1.99*$em;
         width: $s-m;
       }
@@ -50,18 +50,18 @@
         }
       }
       ul {
-        margin-bottom: .707*$em;
-        padding-bottom: .707*$em;
         width: 100%;
         @media screen and (min-width: $s-m) {
-          margin-bottom: 0;
-          padding-bottom: 0;
           width: auto;
         }
         &:not(:last-of-type) {
           border-bottom: 1px solid $color-light-gray;
+          margin-bottom: .707*$em;
+          padding-bottom: .707*$em;
           @media screen and (min-width: $s-m) {
             border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
           }
         }
         &:first-of-type li:nth-of-type(2) {
@@ -84,6 +84,12 @@
       .site-footer-mailer {
         padding-bottom: .707*$em;
         width: 100%;
+        .footer-mail-description {
+          text-align: center;
+          @media screen and (min-width: $m-l) {
+            text-align: left;
+          }
+        }
         #mc_embed_signup_scroll {
           @include align-items(flex-end);
           @include flex-direction(row);

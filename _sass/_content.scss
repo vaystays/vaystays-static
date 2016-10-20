@@ -1,0 +1,23 @@
+.page-content {
+  font-family: $text-serif;
+}
+.page-content-with-sidebar {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include justify-content(flex-start);
+  display: flex;
+  margin: auto;
+  padding: 1.999*$em;
+  max-width: 80*$em;
+  @media screen and (min-width: $m-l) {
+    @include flex-direction(row);
+  }
+}
+.content-footer {
+  margin-top: 1.999*$em 0;
+}
+.careers-content {
+  ul {
+    list-style: disc;
+  }
+}

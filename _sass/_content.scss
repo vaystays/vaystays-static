@@ -8,7 +8,7 @@
   @include justify-content(flex-start);
   display: flex;
   margin: auto;
-  padding: 1.999*$em;
+  padding: 1.999*$em 1.999*$em 3.998*$em;
   max-width: 80*$em;
   @media screen and (min-width: $m-l) {
     @include flex-direction(row);

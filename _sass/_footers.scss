@@ -71,7 +71,7 @@
     }
     .site-footer-figures {
       @include align-items(center);
-      @include flex-direction(column);
+      @include flex-direction(column-reverse);
       @include justify-content(flex-end);
       display: flex;
       max-width: $s;
@@ -79,16 +79,20 @@
       width: 100%;
       @media screen and (min-width: $m-l) {
         @include align-items(flex-end);
+        @include flex-direction(column);
         padding-bottom: 0;
       }
       .site-footer-mailer {
-        padding-bottom: .707*$em;
+        padding: .707*$em 0 0 0;
         width: 100%;
+        @media screen and (min-width: $m-l) {
+          padding: 0 0 $em 0;
+        }
         .footer-mail-description {
-          text-align: center;
-          @media screen and (min-width: $m-l) {
-            text-align: left;
-          }
+          padding-top: .17675*$em;
+        }
+        label {
+          padding-top: 0;
         }
         #mc_embed_signup_scroll {
           @include align-items(flex-end);

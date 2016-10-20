@@ -36,7 +36,7 @@
   }
 }
 .site-header {
-  @include align-items(center);
+  @include align-items(flex-end);
   @include flex-direction(row);
   @include justify-content(center);
   border-bottom: 1px solid $color-background-gray;
@@ -44,6 +44,7 @@
   padding: .707*$em $em;
   position: relative;
   @media screen and (min-width: $m-l) {
+    @include align-items(center);
     @include justify-content(space-between);
     margin-top: 1.414*$em;
   }
@@ -58,6 +59,19 @@
     }
     img,
     picture {
+      height: 40px;
+    }
+  }
+  .header-user-icon {
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: $em;
+    @media screen and (min-width: $m-l) {
+      position: relative;
+      right: auto;
+    }
+    img {
       height: 40px;
     }
   }

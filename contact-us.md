@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Vaystays in the Press
-permalink: /press/
-jumbotron: /assets/png/press.png
+title: Contact Us
+permalink: /contact-us/
 ---
 
 ## Vaystays

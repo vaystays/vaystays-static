@@ -28,6 +28,20 @@
           text-decoration: underline;
         }
       }
+      a:hover {
+        .icon.icon-facebook {
+          background-image: url('/assets/svg/icon_facebook_brand.svg');
+        }
+        .icon.icon-twitter {
+          background-image: url('/assets/svg/icon_twitter_brand.svg');
+        }
+        .icon.icon-instagram {
+          background-image: url('/assets/svg/icon_instagram_brand.svg');
+        }
+        .icon.icon-pinterest {
+          background-image: url('/assets/svg/icon_pinterest_brand.svg');
+        }
+      }
       .icon {
         height: .707*$em;
         width: .707*$em;

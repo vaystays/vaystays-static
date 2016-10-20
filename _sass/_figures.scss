@@ -1,0 +1,9 @@
+.jumbotron {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(33vh - 63px);
+  @media screen and (min-width: $l) {
+    height: calc(66vh - 85px);
+  }
+}

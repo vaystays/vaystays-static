@@ -1,6 +1,10 @@
 .page-content {
   color: $color-darker-gray;
   font-family: $text-serif;
+  margin: auto;
+  padding: 1.999*$em 1.999*$em 3.998*$em;
+  max-width: 80*$em;
+  width: 100%;
 }
 .page-content-with-sidebar {
   @include align-items(flex-start);

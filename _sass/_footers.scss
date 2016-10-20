@@ -121,6 +121,20 @@
           @media screen and (min-width: $s-m) {
             @include align-items(flex-end);
           }
+          a:hover {
+            .icon.icon-facebook {
+              background-image: url('/assets/svg/icon_facebook_brand.svg');
+            }
+            .icon.icon-twitter {
+              background-image: url('/assets/svg/icon_twitter_brand.svg');
+            }
+            .icon.icon-instagram {
+              background-image: url('/assets/svg/icon_instagram_brand.svg');
+            }
+            .icon.icon-pinterest {
+              background-image: url('/assets/svg/icon_pinterest_brand.svg');
+            }
+          }
           .icon {
             height: 1.414*$em;
             width: 1.414*$em;

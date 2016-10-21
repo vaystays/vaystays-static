@@ -1,6 +1,7 @@
 .site-preheader {
   display: none;
   @media screen and (min-width: $m-l) {
+    background: $color-white;
     border-bottom: 1px solid $color-background-gray;
     display: flex;
     @include align-items(center);
@@ -54,9 +55,11 @@
   @include flex-direction(row);
   @include justify-content(center);
   border-bottom: 1px solid $color-background-gray;
+  background: $color-white;
   display: flex;
   padding: .707*$em $em;
   position: relative;
+  width: 100%;
   @media screen and (min-width: $m-l) {
     @include align-items(center);
     @include justify-content(space-between);
@@ -87,6 +90,21 @@
     }
     img {
       height: 40px;
+    }
+  }
+}
+body.header-stalk {
+  margin-top: 63.59px;
+  @media screen and (min-width: $m-l) {
+    margin-top: 86.2px;
+  }
+  .site-header {
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    transition: background $transition-short;
+    &:not(:hover):not(:focus) {
+      background: rgba(255,255,255,.95);
     }
   }
 }

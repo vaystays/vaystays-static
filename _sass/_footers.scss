@@ -8,6 +8,9 @@
   }
   .site-footer-logo {
     text-align: center;
+    img {
+      height: 40px;
+    }
   }
   .site-footer-content {
   @include align-items(center);

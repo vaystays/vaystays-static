@@ -7,3 +7,22 @@
     height: calc(66vh - 85px);
   }
 }
+
+.team-individual {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(flex-start);
+  display: flex;
+  @media screen and (min-width: $m-l) {
+    @include align-items(flex-start);
+    @include flex-direction(row);
+  }
+  img {
+    max-height: 12*$em;
+    max-width: 12*$em;
+    margin: 1.414*$em 1.414*$em 0;
+    @media screen and (min-width: $m-l) {
+      margin: 1.414*$em;
+    }
+  }
+}

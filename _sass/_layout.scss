@@ -1,6 +1,8 @@
 p + *,
 ul + p,
 img + p,
-object + p {
+object + p,
+figure + p,
+figure + figure {
   margin-top: 1.414*$em;
 }

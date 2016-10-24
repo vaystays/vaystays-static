@@ -1,0 +1,10 @@
+<figure class="team-individual">
+  {% if include.image %}
+    <img src="{{ include.image }}" />
+  {% endif %}
+  <div>
+    <h3>{{ include.name }}</h3>
+    <h4>{{ include.title }}</h4>
+    <div class="team-description">{{ include.description }}</div>
+  </div>
+</figure>

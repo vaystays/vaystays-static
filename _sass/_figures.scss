@@ -13,7 +13,7 @@
   @include flex-direction(column);
   @include justify-content(flex-start);
   display: flex;
-  @media screen and (min-width: $m-l) {
+  @media screen and (min-width: $m) {
     @include align-items(flex-start);
     @include flex-direction(row);
   }
@@ -25,4 +25,9 @@
       margin: 1.414*$em;
     }
   }
+}
+.team-individual + .team-individual {
+  border-top: 1px solid $color-light-gray;
+  margin-top: 1.414*$em;
+  padding-top: 1.414*$em;
 }

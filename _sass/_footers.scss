@@ -102,6 +102,7 @@
           @include flex-direction(row);
           @include justify-content(flex-end);
           display: flex;
+          position: relative;
           width: 100%;
           .mc-field-group {
             width: 80%;
@@ -110,6 +111,24 @@
             padding-bottom: 12.312px;
             padding-top: 12.312px;
             width: 20%;
+          }
+        }
+        #mce-responses {
+          position: absolute;
+          top: calc(-100% - 11.312px);
+          width: 100%;
+          .response {
+            background: $color-white;
+            border: 1px solid $color-light-gray;
+            padding: .707*$em $em;
+            position: absolute;
+            width: 100%;
+            &:after {
+
+            }
+            &:before {
+
+            }
           }
         }
       }

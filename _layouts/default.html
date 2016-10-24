@@ -4,10 +4,6 @@
   <body>
     {% include preheader.html %}
     {% include header.html %}
-    {% if page.jumbotron %}
-      <figure class="jumbotron" style="background-image: url({{ page.jumbotron }});">
-    {% endif %}
-    </figure>
     <main class="page-content">
       <div class="wrapper">
         {{ content }}

@@ -1,0 +1,14 @@
+<figure class="press-item">
+  <time>{{ include.date }}</time>
+  {% if include.image %}
+    <img src="{{ include.image }}" />
+  {% endif %}
+  {% if include.href %}
+  <h3>
+    <a href="{{ include.link_href }}" target="_blank" title="Read: {{ include.title }}">{{ include.title }}</a>
+  </h3>
+  {% else %}
+    <h3>{{ include.title }}</h3>
+  {% endif %}
+  <div>{{ include.description }}</div>
+</figure>

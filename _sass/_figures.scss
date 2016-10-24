@@ -31,3 +31,19 @@
   margin-top: 1.414*$em;
   padding-top: 1.414*$em;
 }
+
+.press-item {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include justify-content(flex-start);
+  display: flex;
+  h3 {
+    font-size: $em;
+    margin-top: .3535*$em;
+  }
+}
+.press-item + .press-item {
+  border-top: 1px solid $color-light-gray;
+  margin-top: 1.414*$em;
+  padding-top: 1.414*$em;
+}

@@ -12,7 +12,7 @@ $(function() {
     $('body').toggleClass('nav-shown');
     $('#header-nav-toggle-link').toggleClass('nav-shown');
   });
-  $(document).on('click','#intercom-toggle', function(e) {
+  $(document).on('click','.intercom-toggle', function(e) {
     e.preventDefault();
     if(typeof(Intercom) === 'function') {
       Intercom('show');

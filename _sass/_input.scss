@@ -17,7 +17,7 @@ input[type="email"] {
   -webkit-appearance: none;
   width: 100%;
   &:focus {
-    border-color: $color-aqua-blue;
+    border-color: $color-aqua-blue !important;
     outline: none;
   }
 }

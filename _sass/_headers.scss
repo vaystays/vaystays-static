@@ -13,6 +13,7 @@
     top: 0;
     position: absolute;
     width: 100%;
+    z-index: 100;
     ul {
       @include display(flex);
       @include flex-direction(row);
@@ -60,6 +61,7 @@
   padding: .707*$em $em;
   position: relative;
   width: 100%;
+  z-index: 100;
   @media screen and (min-width: $m-l) {
     @include align-items(center);
     @include justify-content(space-between);

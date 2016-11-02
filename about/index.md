@@ -3,6 +3,12 @@ layout: about-index
 title: About Vaystays
 permalink: /
 ---
+## Our mission.
+
+Whether booking or staying, we value professionalism and convenience when it comes to our own travel accommodations. This is the essence of the fine hotel brands we trust, yet when we’re getting away with family and friends, we don’t book hotel rooms. We book vacation homes. When it comes to standardization, however, the vacation home rental industry we know and love pales in comparison to the hotel industry we admire and trust.
+
+Vaystays was founded with one mission: bridging this industry gap.
+
 ## We are property managers.
 
 Our company started in 2006, with the purchase of one vacation rental home in South Bend, Indiana. Founders Chris and Geoff—both avid sports fans—had spent too many nights crashing on a friend’s couch and sleeping in their cars because they were unable to find, or afford, a hotel room on game day. That one house in South Bend was our solution.

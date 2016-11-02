@@ -3,13 +3,10 @@ layout: careers-index
 title: "Careers at Vaystays"
 permalink: /careers/
 ---
-## About Vaystays
-
-Vaystays is the premier professional vacation rental marketplace, offering beautiful vacation homes in the best destinations across the globe. Every property listed on Vaystays is individually verified by our team and professionally managed, giving you peace of mind. So all you have to do is kick back and enjoy your vacation, stress free.
 
 ## About our team
 
-Naturally, we work hard and play hard, but the quality of your vacation is always top priority. We strive to be the best marketplace first, and the biggest marketplace second—meaning that our greatest sources of pride are the caliber of our work and our top-notch customer service.
+Naturally, we work hard and play hard, but the quality of your vacation is always top priority. We strive to be the best marketplace first, and the biggest marketplace second—meaning that our greatest sources of pride are the caliber of our work and our top-notch customer service. Learn more about [our team](https://about.vaystays.com/team).
 
 ## Who we’re looking for
 

@@ -5,6 +5,10 @@
     {% include preheader.html %}
     {% include header.html %}
     {% include nav.html %}
+    {% if page.jumbotron %}
+      <figure class="jumbotron" style="background-image: url({{ page.jumbotron }});">
+      </figure>
+    {% endif %}
     <main class="page-content page-content-with-sidebar">
       {% include nav-about.html %}
       <div class="wrapper about-content">

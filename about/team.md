@@ -6,6 +6,8 @@ permalink: /team/
 
 ## Our Team
 
+Naturally, we work hard and play hard, but the quality of your vacation is always top priority. We strive to be the best marketplace first, and the biggest marketplace second—meaning that our greatest sources of pride are the caliber of our work and our top-notch customer service.
+
 {% include team-member.html
   name="Chris Brusznicki"
   image="/assets/images/png/team/chris.png"

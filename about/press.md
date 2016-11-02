@@ -7,10 +7,11 @@ jumbotron: /assets/images/png/press.png
 
 ## About Vaystays
 
-lorem ipsum
+Vaystays is the premier professional vacation rental marketplace, offering beautiful vacation homes in the best destinations across the globe. Every property listed on Vaystays is individually verified by our team and professionally managed, giving you peace of mind. So all you have to do is kick back and enjoy your vacation, stress free.
 
 Contact us at [press@vaystays.com](mailto:press@vaystays.com) for media inquiries.
 
+{% include press-logos.html %}
 
 ## Vaystays in the Press
 

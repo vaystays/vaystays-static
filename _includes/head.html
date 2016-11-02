@@ -10,6 +10,10 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
+  {% if page.redirect %}
+    <meta http-equiv="refresh" content="0; URL='{{ page.redirect }}'" />
+  {% endif %}
+
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery.cookie.js"></script>
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/main.js"></script>

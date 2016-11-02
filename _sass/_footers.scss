@@ -1,7 +1,7 @@
 .site-footer {
   background: $color-white;
   color: $color-medium-gray;
-  font-family: $regular-avenir;
+  font-family: $text-sans;
   font-size: .707*$em;
   padding: 1.999*$em $em;
   @media screen and (min-width: $m-l) {
@@ -196,7 +196,8 @@
 .site-postfooter {
   background: $color-background-gray;
   color: $color-dark-gray;
-  font-family: $medium-avenir;
+  font-family: $text-sans;
+font-weight: 500;
   padding: .707*$em $em;
   .site-postfooter-content {
     @include align-items(center);

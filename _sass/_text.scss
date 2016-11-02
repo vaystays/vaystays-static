@@ -9,23 +9,26 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-family: $medium-avenir;
+  font-family: $text-sans;
+font-weight: 500;
   font-size: 2.827*$em;
   margin-top: 0;
 }
 
 h2 {
-  font-family: $medium-avenir;
+  font-family: $text-sans;
+font-weight: 500;
   font-size: 1.999*$em;
 }
 
 h3 {
-  font-family: $regular-avenir;
+  font-family: $text-sans;
   font-size: 1.414*$em;
 }
 
 h4 {
-  font-family: $medium-avenir;
+  font-family: $text-sans;
+font-weight: 500;
   font-weight: bold;
 }
 
@@ -43,7 +46,8 @@ small,
 
 time {
   color: $color-dark-gray;
-  font-family: $medium-avenir;
+  font-family: $text-sans;
+font-weight: 500;
   font-size: .707*$em;
   text-transform: uppercase;
 }

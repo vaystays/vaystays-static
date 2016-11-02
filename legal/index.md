@@ -1,6 +1,5 @@
 ---
-layout: legal-index
-title: Vaystays
+layout: default
+title: Legal
 permalink: /legal/
 ---
-Legal docs.

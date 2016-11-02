@@ -9,6 +9,9 @@ Whether booking or staying, we value professionalism and convenience when it com
 
 Vaystays was founded with one mission: bridging this industry gap.
 
+"We built our web technology to facilitate our service, not the other way around."
+— Geoff Polk | President and Co-Founder
+
 ## We are property managers.
 
 Our company started in 2006, with the purchase of one vacation rental home in South Bend, Indiana. Founders Chris and Geoff—both avid sports fans—had spent too many nights crashing on a friend’s couch and sleeping in their cars because they were unable to find, or afford, a hotel room on game day. That one house in South Bend was our solution.

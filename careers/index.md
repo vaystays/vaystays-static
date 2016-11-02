@@ -2,6 +2,7 @@
 layout: default
 title: "Careers at Vaystays"
 permalink: /careers/
+jumbotron: /assets/images/png/careers.png
 ---
 
 ## About our team.
@@ -14,13 +15,13 @@ We’re always looking for like-minded folks to join our team! Talent, creativit
 
 Think you’ve got the right stuff? Check out our open postings below.
 
+## We champion diversity.
+
+We never discriminate based on race, color, creed, gender, gender expression, age, ancestry, disability, marital status, sexual orientation, or military status. A diverse team is a strong team, and will always create better, more inclusive products.
+
+## sdfsdfasd
+
 <ul>
-  <li>
-    <h3>Careers</h3>
-  </li>
-  <li>
-    <a href="/careers/">All Careers</a>
-  </li>
   <li>
     <a href="/careers/full-stack-engineer">Full-stack Engineer</a>
   </li>
@@ -37,7 +38,3 @@ Think you’ve got the right stuff? Check out our open postings below.
     <a href="/careers/operations-executive">Operations Executive</a>
   </li>
 </ul>
-
-## We champion diversity.
-
-We never discriminate based on race, color, creed, gender, gender expression, age, ancestry, disability, marital status, sexual orientation, or military status. A diverse team is a strong team, and will always create better, more inclusive products.

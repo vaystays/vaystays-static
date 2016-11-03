@@ -2,6 +2,7 @@
 layout: about-index
 title: About Vaystays
 permalink: /
+jumbotron: /assets/images/png/about.png
 ---
 ## Our mission.
 

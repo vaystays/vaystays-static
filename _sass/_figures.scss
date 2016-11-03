@@ -59,3 +59,83 @@
     margin-bottom: 0;
   }
 }
+
+.quote-wrapper {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include justify-content(flex-start);
+  display: flex;
+  @media screen and (min-width: $m-l) {
+    @include flex-direction(row);
+  }
+  @media screen and (min-width: $l) {
+    @include flex-direction(column);
+  }
+  @media screen and (min-width: $xl) {
+    @include flex-direction(row);
+  }
+}
+.quote-image {
+  @media screen and (min-width: $s-m) {
+    background-image: url('/assets/images/png/workspace.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 20*$em;
+    margin: 0 0 $em 0;
+    width: 100%;
+  }
+  @media screen and (min-width: $m-l) {
+    margin: 0 $em 0 0;
+    width: 50%;
+  }
+  @media screen and (min-width: $l) {
+    margin: 0 0 $em 0;
+    width: 100%;
+  }
+  @media screen and (min-width: $xl) {
+    margin: 0 $em 0 0;
+    width: 50%;
+  }
+}
+.quote {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(space-between);
+  background: $color-link-blue;
+  color: $color-white;
+  display: flex;
+  font-family: $text-sans;
+  height: 20*$em;
+  padding: 1.414*$em;
+  text-align: center;
+  width: 100%;
+  @media screen and (min-width: $m-l) {
+    width: 50%;
+  }
+  @media screen and (min-width: $l) {
+    width: 100%;
+  }
+  @media screen and (min-width: $xl) {
+    width: 50%;
+  }
+  blockquote,
+  span {
+    color: rgba(255,255,255,.75);
+    font-size: 1.0605*$em;
+    margin: .707*$em 0;
+  }
+  blockquote {
+    font-weight: 500;
+  }
+  b {
+    color: $color-white;
+    font-weight: 500;
+  }
+  img {
+    border-radius: 50%;
+    height: 10*$em;
+    width: 10*$em;
+  }
+}

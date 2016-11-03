@@ -54,7 +54,7 @@ function monitorVisibility() {
 }
 
 function handleVisibilityChange() {
-  fillLightboxIfAvailable(true, '/header-mailer');
+  fillLightboxIfAvailable(true, '/unfocus-mailer');
 }
 
 function fillLightboxIfAvailable(checkCookie, lightboxTarget) {

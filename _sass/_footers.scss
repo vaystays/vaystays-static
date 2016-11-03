@@ -109,6 +109,7 @@
             width: 80%;
           }
           #mc-embedded-subscribe {
+            font-family: $text-sans;
             padding-bottom: 12.312px;
             padding-top: 12.312px;
             width: 20%;
@@ -121,6 +122,8 @@
           div.mce_inline_error {
             background: $color-white;
             color: $color-red;
+            font-family: $text-sans;
+            font-weight: normal;
             margin: 0;
             padding: .17675*$em 0 .707*$em;
             position: absolute;

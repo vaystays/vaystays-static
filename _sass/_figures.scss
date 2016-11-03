@@ -48,7 +48,8 @@
   padding-top: 1.414*$em;
 }
 
-#intercom-container .intercom-launcher-frame {
+#intercom-container .intercom-launcher-frame,
+#intercom-container .intercom-chat {
   display: none !important;
   @media screen and (min-width: $m) {
     display: inherit !important;
@@ -56,60 +57,5 @@
   }
   @media screen and (min-width: $xxl) {
     margin-bottom: 0;
-  }
-}
-.lightbox-container {
-  @include align-items(center);
-  @include flex-direction(column);
-  @include justify-content(center);
-  background: rgba(255,255,255,.95);
-  display: flex;
-  height: 100vh;
-  left: 0;
-  position: fixed;
-  top: 0;
-  transition: all $transition-short;
-  width: 100vw;
-  z-index: 1000;
-  .lightbox {
-    background: $color-white;
-    border: 1px solid $color-aqua-blue;
-    height: calc(100% - 32px);
-    overflow: auto;
-    max-height: $m-l;
-    max-width: $l;
-    padding: 3.8885*$em $em 2.828*$em;
-    position: relative;
-    width: calc(100% - 32px);
-    @media screen and (min-height: $m) {
-      min-height: $s;
-      height: auto;
-    }
-    @media screen and (min-width: $m) {
-      min-width: $m;
-      width: auto;
-    }
-    .lightbox-close {
-      height: 36px;
-      left: $em;
-      position: absolute;
-      text-align: center;
-      top: $em;
-      a {
-        text-decoration: none;
-      }
-      div {
-        color: $color-darker-gray;
-        font-family: $text-sans;
-font-weight: 500;
-        font-size: .707*$em;
-        margin-top: -.17675*$em;
-        text-transform: uppercase;
-        width: 100%;
-      }
-      img {
-        height: 1.0605*$em;
-      }
-    }
   }
 }

@@ -1,0 +1,159 @@
+.lightbox-container {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(center);
+  background: rgba(255,255,255,.95);
+  cursor: pointer;
+  display: flex;
+  height: 100vh;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  transition: opacity $transition-short;
+  width: 100vw;
+  z-index: 1000;
+  .lightbox {
+    @include align-items(flex-start);
+    @include flex-direction(column);
+    @include justify-content(flex-start);
+    background: $color-white;
+    border: 1px solid $color-aqua-blue;
+    cursor: default;
+    display: flex;
+    height: calc(100% - 86px);
+    overflow: auto;
+    margin-top: 52px;
+    max-height: $m;
+    max-width: $m-l;
+    padding: $em;
+    position: relative;
+    width: calc(100% - 32px);
+    @media screen and (min-height: $m) {
+      margin-top: 68px;
+    }
+    @media screen and (min-height: $m-l) {
+      margin-top: 0;
+    }
+    @media screen and (min-width: $m) {
+      @include flex-direction(row);
+      height: auto;
+      min-height: $s;
+      min-width: 608px;
+    }
+    .lightbox-fullbleed {
+      background-image: url('/assets/images/png/lightbox-wide.png');
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      height: 220px;
+      width: calc(100% + 32px);
+      margin: -1*$em -1*$em $em -1*$em;
+      @media screen and (min-width: $m) {
+        background-image: url('/assets/images/png/lightbox-tall.png');
+        height: $s;
+        margin: -1*$em $em -1*$em -1*$em;
+        width: $s;
+      }
+    }
+  }
+  .lightbox-close {
+    height: 36px;
+    right: $em;
+    position: absolute;
+    text-align: center;
+    top: $em;
+    a {
+      text-decoration: none;
+    }
+    div {
+      color: $color-darker-gray;
+      font-family: $text-sans;
+      font-weight: 500;
+      font-size: .707*$em;
+      margin-top: -.17675*$em;
+      text-transform: uppercase;
+      width: 100%;
+    }
+    img {
+      height: 1.0605*$em;
+    }
+  }
+}
+
+.lightbox-mail-signup {
+  .lightbox-content {
+    margin: auto;
+    max-width: $s-m;
+  }
+  h1 {
+    font-family: $text-display;
+    font-weight: bold;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .lightbox-mailer {
+    padding: .707*$em 0 0 0;
+    width: 100%;
+    @media screen and (min-width: $m-l) {
+      padding: 0 0 $em 0;
+    }
+    label {
+      padding-top: 0;
+    }
+    #mc_embed_signup_scroll {
+      @include align-items(flex-end);
+      @include flex-direction(column);
+      @include justify-content(flex-end);
+      display: flex;
+      position: relative;
+      width: 100%;
+      .mc-field-group {
+        margin-bottom: 1.414*$em;
+        width: 100%;
+      }
+      #mc-embedded-subscribe {
+        font-family: $text-sans;
+        width: 100%;
+      }
+    }
+    #mc_embed_signup {
+      input.mce_inline_error {
+        border: 1px solid $color-red;
+      }
+      div.mce_inline_error {
+        background: $color-white;
+        color: $color-red;
+        font-family: $text-sans;
+        font-size: .707*$em;
+        font-weight: normal;
+        margin: 0;
+        padding: .17675*$em 0;
+        position: absolute;
+        width: 100%;
+      }
+    }
+    #mce-responses  {
+      position: absolute;
+      bottom: 0;
+      height: 0;
+      width: 100%;
+      .response {
+        background: $color-white;
+        border-top: 1px solid $color-background-gray;
+        height: 126px;
+        margin-top: -126px;
+        padding-top: $em;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}
+#lightbox-target.lightbox-shown .lightbox-container {
+  opacity: 1;
+}

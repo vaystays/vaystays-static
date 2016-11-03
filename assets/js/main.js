@@ -17,11 +17,17 @@ $(function() {
     e.preventDefault();
     fillLightboxIfAvailable(false, '/header-mailer');
   });
+  $(document).on('click','.lightbox-container', function(e) {
+    if(($(e.target).hasClass('lightbox-container'))) {
+      closeLightbox();
+    }
+  });
   $(document).on('click','.lightbox-close', function(e) {
-    e.preventDefault();
-    document.cookie = "subscribeLightbox=true";
-    $('#lightbox-target').removeClass('lightbox-shown');
-    $('#lightbox-target').empty();
+      e.preventDefault();
+      closeLightbox();
+  });
+  $(document).on('submit','.lightbox-mailer #mc-embedded-subscribe-form', function(e) {
+    alert('bunz');
   });
   $(document).on('click','.intercom-toggle', function(e) {
     e.preventDefault();
@@ -32,7 +38,22 @@ $(function() {
     }
   });
   monitorVisibility();
+  monitorTime();
 });
+
+function closeLightbox() {
+  $('#lightbox-target').removeClass('lightbox-shown');
+  setTimeout(function() {
+    $('#lightbox-target').empty();
+  },300);
+}
+
+function monitorTime() {
+  setTimeout(function() {
+    fillLightboxIfAvailable(true, '/inactive-mailer');
+  }, 15000);
+}
+
 
 function monitorVisibility() {
   var hidden, visibilityChange;
@@ -59,8 +80,15 @@ function handleVisibilityChange() {
 
 function fillLightboxIfAvailable(checkCookie, lightboxTarget) {
   if(!checkCookie || !getCookie("subscribeLightbox")) {
-    if($('#lightbox-target').is(':empty')) {
-      $('#lightbox-target').load(lightboxTarget, function( response, status, xhr ) {
+    document.cookie = "subscribeLightbox=true";
+    var $lightboxTarget = $('#lightbox-target');
+    if($lightboxTarget.is(':empty')) {
+      $lightboxTarget.load(lightboxTarget, function( response, status, xhr ) {
+        if(status === 'success') {
+          setTimeout(function() {
+            $lightboxTarget.addClass('lightbox-shown');
+          },100);
+        }
       });
     }
   }

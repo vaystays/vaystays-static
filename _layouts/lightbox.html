@@ -1,15 +1,13 @@
 <div class="lightbox-container">
-  <figure class="lightbox" id="lightbox">
-    <figure class="lightbox-close">
-      <a href="#" id="lightbox-close-link">
-        <span class="close">
-          <img src="/assets/images/svg/close.svg">
-          <div>Close</div>
-        </span>
-      </a>
-    </figure>
-    <section class="lightbox-content">
-      {{ content }}
-    </section>
+  <figure class="lightbox-close">
+    <a href="#" id="lightbox-close-link">
+      <span class="close">
+        <img src="/assets/images/svg/close.svg">
+        <div>Close</div>
+      </span>
+    </a>
+  </figure>
+  <figure class="lightbox lightbox-{% if page.lightbox_class %}{{ page.lightbox_class }}{% endif %}" id="lightbox">
+    {{ content }}
   </figure>
 </div>

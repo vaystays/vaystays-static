@@ -22,11 +22,11 @@ In our efforts to incorporate WCAG, Vaystays uses automated accessibility testin
 
 #### Standardized User Experience
 
-
+We strive to be first obvious, then standardized, then beautiful. Wherever possible, we build for web standards, and make components that promote understanding and allow for assumptions across our web experience.
 
 #### Reusable and Compliant Components
 
-
+In conjunction with our standardized user experience, we build components that can be used across our web properties that give us as much flexibility as needed, while confining us to web standards, and promoting uniformity across similar content elements types.
 
 ### Contact
 

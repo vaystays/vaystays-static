@@ -6,20 +6,27 @@ permalink: /legal/accessibility
 
 ## Vaystays Accessibility Policy
 
-Vaystays is committed to providing an accessible and easy-to-use website for our customers. This is in line with our company's core value of using our collective intelligence to invent technology and create products that simplify and improve travel for our customers and partners.
-Our goal is to make our website content and services accessible to the widest audience possible. We are committed to including the Web Content Accessibility Guidelines (WCAG) 2.0 of the World Wide Web Consortium (W3C) in our product design process.
+Vaystays is committed to providing as accessible and usable a website as possible for our customers. Our goal is to make our website content available to the widest audience with the most diverse set of input methods. We are committed to including the Web Content Accessibility Guidelines (WCAG) 2.0 of the World Wide Web Consortium (W3C) in our product design process.
 
-We recognize that WCAG is always evolving and so must we as we continue to meet these standards.
+We recognize that WCAG, and the device landscape, continues to evolve and we are committed to evolving alongside it.
 
 ### Our Key Areas of Focus:
 
 #### Documentation
 
+We have  a wealth of information available to our engineering teams, including WCAG best practices, standards tools, and FAQs.
+
 #### Quality Assurance
+
+In our efforts to incorporate WCAG, Vaystays uses automated accessibility testing in conjunction with ongoing adherence to common-sense practices and W3C recommended defaults. We also attempt, at every point possible, to progressively enhance our web experiences while still providing a base experience to the widest amount of users.
 
 #### Standardized User Experience
 
+
+
 #### Reusable and Compliant Components
+
+
 
 ### Contact
 

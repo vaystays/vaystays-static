@@ -5,9 +5,9 @@ permalink: /
 ---
 ## Our mission.
 
-Whether booking or staying, we value professionalism and convenience when it comes to our own travel accommodations. This is the essence of the fine hotel brands we trust, yet when we’re getting away with family and friends, we don’t book hotel rooms. We book vacation homes. When it comes to standardization, however, the vacation home rental industry we know and love pales in comparison to the hotel industry we admire and trust.
+When booking and traveling, we value the professionalism and convenience of fine hotel brands, but much prefer to stay in vacation homes. When it comes to standardization, however, the vacation home rental industry we know and love tends to pale in comparison to the hotel industry we admire and trust.
 
-Vaystays was founded with one mission: bridging this industry gap.
+Vaystays was founded with one mission: To bridge this industry gap.
 
 "We built our web technology to facilitate our service, not the other way around."
 — Geoff Polk | President and Co-Founder

@@ -2,7 +2,7 @@
 layout: about-index
 title: About Vaystays
 permalink: /
-jumbotron: /assets/images/png/about.png
+jumbotron: /assets/images/png/about
 ---
 ## Our mission.
 
@@ -16,7 +16,7 @@ Vaystays was founded with one mission: To bridge this industry gap.
 
 ### We are property managers.
 
-Our company started in 2006, with the purchase of one vacation rental home in South Bend, Indiana. Founders Chris and Geoff—both avid sports fans—had spent too many nights crashing on a friend’s couch and sleeping in their cars because they were unable to find, or afford, a hotel room on game day. That one house in South Bend was our solution.
+Our company started in 2006, with the purchase of one vacation rental home in South Bend, Indiana. Founders Chris and Geoff—both avid sports fans—had spent too many nights crashing on a friend’s couch and sleeping in their cars because hotel prices skyrocketed on game days. That one house in South Bend was our solution.
 
 But we weren’t done there. Soon, we’d purchased six homes, and a thriving rental-home marketplace followed soon after. To this day, [GamedayHousing](http://www.gamedayhousing.com/) provides high-end vacation rentals during big sports events—a necessary alternative to overpriced and overcrowded hotels.
 

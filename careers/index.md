@@ -2,7 +2,7 @@
 layout: default
 title: "Careers at Vaystays"
 permalink: /careers/
-jumbotron: /assets/images/png/careers.png
+jumbotron: /assets/images/png/careers
 ---
 
 ## About our team.

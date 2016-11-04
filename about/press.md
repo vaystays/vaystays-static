@@ -2,7 +2,7 @@
 layout: about-subpage
 title: Vaystays in the Press
 permalink: /press/
-jumbotron: /assets/images/png/press.png
+jumbotron: /assets/images/png/press
 ---
 
 ## About Vaystays

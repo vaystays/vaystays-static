@@ -2,7 +2,7 @@
 layout: about-subpage
 title: "About Vaystays: Mission and Values"
 permalink: /mission-and-values/
-jumbotron: /assets/images/png/mission.png
+jumbotron: /assets/images/png/mission
 ---
 
 ## Our mission.

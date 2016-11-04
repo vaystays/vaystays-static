@@ -2,7 +2,7 @@
 layout: about-subpage
 title: "About Vaystays: Our Team"
 permalink: /team/
-jumbotron: /assets/images/png/team.png
+jumbotron: /assets/images/png/team
 ---
 
 ## Our Team

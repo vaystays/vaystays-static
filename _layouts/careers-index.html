@@ -6,8 +6,7 @@
     {% include header.html %}
     {% include nav.html %}
     {% if page.jumbotron %}
-      <figure class="jumbotron" style="background-image: url({{ page.jumbotron }});">
-      </figure>
+      {% include jumbotron.html %}
     {% endif %}
     <main class="page-content page-content-with-sidebar">
       {% include nav-careers.html %}

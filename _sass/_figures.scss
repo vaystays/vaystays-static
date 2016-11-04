@@ -128,6 +128,12 @@
   }
   blockquote {
     font-weight: 500;
+    @media screen and (min-width: $l) {
+      font-size: 1.414*$em;
+    }
+    @media screen and (min-width: $xl) {
+      font-size: 1.0605*$em;
+    }
   }
   b {
     color: $color-white;
@@ -135,6 +141,8 @@
   }
   img {
     border-radius: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
     height: 10*$em;
     width: 10*$em;
   }

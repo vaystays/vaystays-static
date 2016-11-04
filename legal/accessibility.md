@@ -2,6 +2,7 @@
 layout: legal-subpage
 title: Accessibility Policy
 permalink: /legal/accessibility
+jumbotron: /assets/images/png/accessibility.png
 ---
 
 ## Vaystays Accessibility Policy

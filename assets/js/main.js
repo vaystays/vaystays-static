@@ -62,7 +62,7 @@ function monitorTime() {
 
 function monitorVisibility() {
   var windowWidth = $(window).width();
-  if(windowWidth >= 800) {
+  if(windowWidth >= 960) {
     var hidden, visibilityChange;
     if (typeof document.hidden !== "undefined") {
       hidden = "hidden";

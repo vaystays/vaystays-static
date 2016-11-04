@@ -43,7 +43,7 @@ Contact us at [press@vaystays.com](mailto:press@vaystays.com) for media inquirie
   description="<p>Smart travel entrepreneurs are capitalizing on a growing number of travelers adding leisure time onto business trips.</p>"
 %}
 
-## Gameday Housing in the Press
+## GamedayHousing in the Press
 
 {% include press-item.html
   title="Paying the mortgage by passing the buck"

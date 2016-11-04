@@ -159,7 +159,7 @@ font-weight: 500;
   }
   h3 {
     font-family: $text-sans;
-font-weight: 500;
+    font-weight: 500;
     margin: 0 0 .3535*$em;
   }
 }
@@ -171,6 +171,10 @@ font-weight: 500;
   padding-bottom: .707*$em;
   li {
     margin-bottom: .3535*$em;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+    }
   }
 }
 .nav-back-link {

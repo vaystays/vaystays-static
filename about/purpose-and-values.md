@@ -1,7 +1,7 @@
 ---
 layout: about-subpage
-title: "About Vaystays: Purpose and Values"
-permalink: /purpose-and-values/
+title: "About Vaystays: Mission and Values"
+permalink: /mission-and-values/
 jumbotron: /assets/images/png/mission.png
 ---
 

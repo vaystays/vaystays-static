@@ -2,7 +2,11 @@
   <section class="site-postfooter-content">
   <figure class="site-postfooter-logo">
     <a href="https://www.vaystays.com" title="Vaystays">
-      <img src="/assets/images/svg/logo_shield_with_wordmark.svg" alt="Vaystays"/>
+      <picture>
+        <source srcset="/assets/images/svg/logo_shield_with_wordmark.svg" media="(min-width: 960px)">
+          <source srcset="/assets/images/svg/logo_shield.svg">
+        <img src="/assets/images/svg/logo_shield.svg" alt="Vaystays">
+      </picture>
     </a>
   </figure>
   {% include footer-legal.html %}

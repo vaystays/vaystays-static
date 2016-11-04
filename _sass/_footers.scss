@@ -247,7 +247,7 @@
   background: $color-background-gray;
   color: $color-dark-gray;
   font-family: $text-sans;
-font-weight: 500;
+  font-weight: 500;
   padding: .707*$em $em;
   .site-postfooter-content {
     @include align-items(center);
@@ -279,8 +279,13 @@ font-weight: 500;
       margin-bottom: 0;
     }
     img {
-      height: 24px;
+      height: 40px;
+      opacity: .125;
       vertical-align: middle;
+      @media screen and (min-width: $m-l) {
+        height: 24px;
+        opacity: 1;
+      }
     }
   }
 }

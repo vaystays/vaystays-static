@@ -10,6 +10,8 @@ When booking and traveling, we value the professionalism and convenience of fine
 
 Vaystays was founded with one mission: To bridge this industry gap.
 
+Learn more about our [mission and values](https://about.vaystays.com/mission-and-values).
+
 {% include quote.html %}
 
 ## Our story.
@@ -25,3 +27,5 @@ But we weren’t done there. Soon, we’d purchased six homes, and a thriving re
 With the success of GamedayHousing came a realization: It’s difficult for consumers to find professionally managed rental homes. We launched [Vaystays](https://www.vaystays.com/) in 2014 with a single purpose: To bring professionalism and high standards back to the world of vacation rental homes.
 
 Today, Vaystays lists more than 20,000 of the best vacation homes all over the world. More importantly, each comes with the peace of mind that only Vaystays can offer. We work with the world’s best property managers to ensure that every single property on our site is verified and professionally managed. So no matter where you’re going or what your budget is, there are no unpleasant surprises when you get there. Because ultimately, guaranteeing your dream vacation is our goal.
+
+Learn more about our [team](https://about.vaystays.com/team).

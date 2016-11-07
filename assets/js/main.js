@@ -1,4 +1,3 @@
-
 $(function() {
   setHeaderStalkState();
   $(window).resize(function() {

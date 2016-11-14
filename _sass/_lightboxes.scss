@@ -42,7 +42,7 @@
       min-width: 608px;
     }
     .lightbox-fullbleed {
-      background-image: url('/assets/images/png/lightbox-wide.png');
+      background-image: url('https://about.vaystays.com/assets/images/png/lightbox-wide.png');
       background-position: top center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -51,7 +51,7 @@
       width: calc(100% + 32px);
       margin: -1*$em -1*$em $em -1*$em;
       @media screen and (min-width: $m) {
-        background-image: url('/assets/images/png/lightbox-tall.png');
+        background-image: url('https://about.vaystays.com/assets/images/png/lightbox-tall.png');
         height: $s;
         margin: -1*$em $em -1*$em -1*$em;
         width: $s;

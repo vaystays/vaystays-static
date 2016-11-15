@@ -7,11 +7,11 @@ $(document).ready(function(){
           if (!isValidEmail($form)) {
               var error =  "Please enter a valid email address.";
               $resultElement.empty().removeClass('success attempting').addClass('error');
-              $('#mc-embedded-subscribe').removeClass('success attempting');
+              $('#mce-mailer #mc-embedded-subscribe').removeClass('success attempting');
               $resultElement.html(error);
           } else {
               $resultElement.empty().removeClass('error success').addClass('attempting');
-              $('#mc-embedded-subscribe').removeClass('error success').addClass('attempting');
+              $('#mce-mailer #mc-embedded-subscribe').removeClass('error success').addClass('attempting');
               $resultElement.html("Subscribing.");
               submitSubscribeForm($form, $resultElement);
           }
@@ -45,11 +45,11 @@ function submitSubscribeForm($form, $resultElement) {
             if (data.result != "success") {
                 var message = data.msg || "Sorry. Unable to subscribe at this time. Please try again later.";
                 $resultElement.empty().removeClass('success attempting').addClass('error');
-                $('#mc-embedded-subscribe').removeClass('success attempting');
+                $('#mce-mailer #mc-embedded-subscribe').removeClass('success attempting');
                 $resultElement.html(message);
             } else {
                 $resultElement.empty().removeClass('error attempting').addClass('success');
-                $('#mc-embedded-subscribe').removeClass('error attempting').addClass('success');
+                $('#mce-mailer #mc-embedded-subscribe').removeClass('error attempting').addClass('success');
                 $resultElement.html("Almost finished! We need to confirm your email address. To complete the subscription process, please click the link in the email we just sent you.");
                 setTimeout(function() {
                   closeLightbox();

@@ -20,6 +20,9 @@
     &.feature-centered {
       max-width: $s-m;
       margin: auto;
+      &.text-centered {
+        text-align: center;
+      }
       .button {
         margin: 2.828*$em auto 0;
       }

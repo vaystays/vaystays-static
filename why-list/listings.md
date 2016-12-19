@@ -1,5 +1,5 @@
 ---
 layout: why-list
 title: Why List With Vaystays
-permalink: /why-list-with-us/listings
+permalink: /why-list-with-us/listings/
 ---

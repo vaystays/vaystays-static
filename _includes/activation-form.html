@@ -1,0 +1,87 @@
+<figure class="activation-mailer">
+  <form method="POST" action="http://formspree.io/chad@vaystays.com" novalidate>
+    <h3>Contact information</h3>
+    <div class="form-element">
+      <label for="name">Full name</label>
+      <input type="text" value="" name="name" class="required" placeholder="Jane Smith">
+    </div>
+
+    <div class="form-group group-2">
+      <div class="form-element">
+        <label for="email">Email address</label>
+        <input type="email" value="" name="email" class="required email" id="form-email" placeholder="guest@vaystays.com">
+      </div>
+
+      <div class="form-element">
+        <label for="phone">Phone number</label>
+        <input type="tel" value="" name="phone" class="required phone" id="form-phone" placeholder="1 (123) 123-1234">
+      </div>
+    </div>
+
+    <h3>Business information</h3>
+    <div class="form-element">
+      <label for="business-name">Business name</label>
+      <input type="text" value="" name="business-name" class="required" placeholder="Jane's Vacation Rentals">
+    </div>
+
+    <div class="form-element">
+      <label for="business-name">Website URL <small>(Optional)</small></label>
+      <input type="url" value="" name="url" class="" placeholder="www.vaystays.com">
+    </div>
+
+    <div class="form-group group-2">
+      <div class="form-element">
+        <label for="number-of-properties">Number of properties</label>
+        <input type="number" value="" name="number-of-properties" class="required" placeholder="">
+      </div>
+
+      <div class="form-element">
+        <label for="annual-revenue">Annual bookings revenue  <small>(Optional)</small></label>
+        <input type="text" value="" name="annual-revenue" class="" placeholder="">
+      </div>
+    </div>
+
+      <div class="form-element">
+        <label for="location">Where are your properties located?</label>
+        <input type="text" value="" name="location" class="required" placeholder="">
+      </div>
+
+    <div class="form-group group-2">
+      <div class="form-element">
+        <label for="online-booking">Do you accept instant online bookings?</label>
+        <div class="select-wrapper">
+          <select name="online-booking">
+            <option disabled selected value></option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-element">
+        <label for="pm-software">Do you currently use any property management software?</label>
+        <div class="select-wrapper">
+          <select name="pm-software">
+            <option disabled selected value></option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label for="message">Tell us a bit about yourself and your business  <small>(Optional)</small></label>
+      <textarea value="" name="message" class="" rows="6"></textarea>
+    </div>
+
+    <input type="hidden" name="_next" value="/thank-you" />
+    <input type="hidden" name="_subject" value="New submission on Vaystays Why List" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <div class="response" id="mailer-response">
+       <br>
+    </div>
+    <input type="submit" value="Submit" name="subscribe" class="button">
+  </form>
+  <script type="text/javascript" src="/assets/js/activation.js"></script>
+</figure>

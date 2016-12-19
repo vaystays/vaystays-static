@@ -1,5 +1,10 @@
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="url"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
   @include placeholder-text {
     color: $color-light-gray;
   }
@@ -16,9 +21,24 @@ input[type="email"] {
   padding: .707*$em;
   -webkit-appearance: none;
   width: 100%;
+  max-width: $m;
   &:focus {
     border-color: $color-aqua-blue !important;
     outline: none;
+  }
+}
+.select-wrapper {
+  position: relative;
+  &:after {
+    position: absolute;
+    right: .5*$em;
+    display: block;
+    bottom: .5*$em;
+    content: "▼";
+    font-size: .707*$em;
+    text-align: center;
+    pointer-events: none;
+    color: $color-medium-gray;
   }
 }
 label {
@@ -27,6 +47,11 @@ label {
   font-family: $text-sans;
   font-size: .707*$em;
   padding: .707*$em 0 .17675*$em;
+  small {
+    color: $color-medium-gray;
+    font-style: italic;
+    font-size: .53025*$em;
+  }
 }
 
 input[type="submit"] {
@@ -43,4 +68,23 @@ input[type="submit"] {
   &:hover {
     background: lighten($color-orange, 5);
   }
+}
+#mailer-response {
+  background: $color-white;
+  font-family: $text-sans;
+  font-size: .707*$em;
+  font-weight: normal;
+  margin: 0;
+  padding: .17675*$em 0;
+  position: relative;
+  width: 100%;
+}
+#mailer-response.error {
+  color: $color-red;
+}
+#mailer-response.attempting {
+  color: $color-link-blue;
+}
+#mailer-response.success {
+  font-weight: 500;
 }

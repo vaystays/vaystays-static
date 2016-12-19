@@ -17,6 +17,13 @@
     @media screen and (min-width: $m-l) {
       padding: 3.998*$em 1.999*$em;
     }
+    &.feature-centered {
+      max-width: $s-m;
+      margin: auto;
+      .button {
+        margin: 2.828*$em auto 0;
+      }
+    }
   }
   &.highlight {
     background: $color-white-gray;
@@ -85,6 +92,17 @@
     display: block;
   }
 }
-span.software-provider {
-  text-transform: capitalize;
+.two-1-3 {
+  @media screen and (min-width: $m-l) {
+    @include align-items(center);
+    @include flex-direction(row);
+    @include justify-content(flex-start);
+    display: flex;
+    section:first-child {
+      width: 33.33%;
+    }
+    section:last-child {
+        width: 66.67%;
+    }
+  }
 }

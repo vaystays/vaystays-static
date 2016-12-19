@@ -36,6 +36,16 @@
       font-size: 2.827*$em;
     }
   }
+  div {
+    width: 100%;
+    @media screen and (min-width: $l) {
+      align-self: flex-end;
+      width: auto;
+    }
+    .button {
+      margin: 1.414*$em auto 0;
+    }
+  }
   p {
     font-family: $text-sans;
     font-weight: 500;
@@ -270,6 +280,40 @@
     }
   }
 }
+.activation-steps {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include justify-content(flex-start);
+  display: flex;
+  @media screen and (min-width: $m-l) {
+    @include flex-direction(row);
+  }
+  li {
+    padding: $em 0;
+    @media screen and (min-width: $m-l) {
+      padding: 0 $em;
+      width: 33%;
+    }
+  }
+}
+.activation-options {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(center);
+  display: flex;
+  @media screen and (min-width: $m-l) {
+    margin-top: 2.828*$em;
+    @include flex-direction(row);
+  }
+  li {
+    padding: $em 0;
+    text-align: center;
+    @media screen and (min-width: $m-l) {
+      padding: 0 $em;
+      width: 33%
+    }
+  }
+}
 ul.separate {
   font-family: $text-sans;
   font-size: 1.414*$em;
@@ -339,5 +383,36 @@ ul.separate {
   }
   .item-centered {
     margin: 0;
+  }
+}
+.software-header-icon {
+  display: block;
+  margin: 1.999*$em auto 0;
+}
+.activation-mailer {
+  margin: auto;
+  max-width: $m;
+  .form-group {
+    @include align-items(flex-end);
+    @include flex-direction(column);
+    @include justify-content(space-between);
+    display: flex;
+    .form-element {
+      width: 100%;
+    }
+    @media screen and (min-width: $m) {
+      @include flex-direction(row);
+      &.group-2 {
+        .form-element {
+          width: 48%;
+        }
+      }
+      &.group-3 {
+        .form-element {
+          width: 31%;
+        }
+      }
+    }
+
   }
 }

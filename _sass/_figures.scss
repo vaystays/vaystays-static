@@ -8,6 +8,45 @@
     height: calc(66vh - 85px);
   }
 }
+.jumbotron-text {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(center);
+  display: flex;
+  background-position: center;
+  color: $color-white;
+  height: auto;
+  min-height: calc(33vh - 63px);
+  @media screen and (min-width: $l) {
+    min-height: calc(66vh - 85px);
+  }
+  .wrapper {
+    @include align-items(flex-start);
+    @include flex-direction(column);
+    @include justify-content(space-between);
+    display: flex;
+    min-height: calc(25vh);
+    @media screen and (min-width: $l) {
+      min-height: calc(50vh);
+    }
+  }
+  h2 {
+    text-shadow: 0px 0px 2px $color-background-black;
+    @media screen and (min-width: $l) {
+      font-size: 2.827*$em;
+    }
+  }
+  p {
+    font-family: $text-sans;
+    font-weight: 500;
+    max-width: $s-m;
+    text-shadow: 0px 0px 2px $color-background-black;
+    @media screen and (min-width: $l) {
+      align-self: flex-end;
+      font-size: 1.414*$em;
+    }
+  }
+}
 
 .team-individual {
   @include align-items(center);
@@ -146,5 +185,159 @@
     flex-shrink: 0;
     height: 10*$em;
     width: 10*$em;
+  }
+}
+
+.logo-section {
+  text-align: center;
+  ul {
+    @include align-items(flex-start);
+    @include flex-direction(row);
+    @include justify-content(center);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    @media screen and (min-width: $m) {
+      max-width: $s-m;
+    }
+    @media screen and (min-width: $m-l) {
+      max-width: $m;
+    }
+    @media screen and (min-width: $l-xl) {
+      max-width: $l;
+    }
+    li {
+      height: 4*$em;
+      line-height: 4*$em;
+      margin: .3535*$em;
+      padding: .5*$em;
+      width: 10*$em;
+      @media screen and (min-width: $l-xl) {
+        margin: .3535*$em .707*$em;
+      }
+      img {
+        max-height: 3*$em;
+      }
+    }
+  }
+}
+.three-up {
+  @include align-items(flex-start);
+  @include flex-direction(column);
+  @include justify-content(center);
+  display: flex;
+  @media screen and (min-width: $m-l) {
+    @include flex-direction(row);
+    margin-top: 2.828*$em;
+  }
+  li {
+    @include align-items(flex-start);
+    @include flex-direction(row);
+    @include justify-content(flex-start);
+    display: flex;
+    padding: $em 0;
+    @media screen and (min-width: $m-l) {
+      @include flex-direction(column);
+      padding: 0 $em;
+      width: 33%;
+    }
+    span {
+      border: 1px solid $color-dark-gray;
+      border-radius: 50%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      font-family: $text-sans;
+      font-weight: 500;
+      font-size: 1.414*$em;
+      height: 2.706*$em;
+      line-height: 2.706*$em;
+      text-align: center;
+      margin: auto;
+      width: 2.706*$em;
+    }
+    figure {
+      margin: 0 0 0 $em;
+      @media screen and (min-width: $m-l) {
+        margin: $em 0 0 0;
+      }
+      h4 {
+        font-size: 1.414*$em;
+        margin-top: 0;
+        @media screen and (min-width: $m-l) {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+ul.separate {
+  font-family: $text-sans;
+  font-size: 1.414*$em;
+  font-weight: 500;
+  list-style: disc;
+  margin: 1.414*$em auto;
+  padding-left: 1.414*$em;
+  max-width: $m;
+}
+.image-holder {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item-centered {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(center);
+  display: flex;
+  margin: auto;
+  max-width: $s-m;
+}
+#book-form {
+  .wrapper {
+    @include align-items(center);
+    @include flex-direction(column);
+    @include justify-content(center);
+    color: $color-white;
+    display: flex;
+    min-height: calc(25vh);
+    @media screen and (min-width: $l) {
+      min-height: calc(50vh);
+    }
+  }
+  h3 {
+    font-size: 1.999*$em;
+    text-shadow: 0px 0px 2px $color-background-black;
+    @media screen and (min-width: $l) {
+      font-size: 2.827*$em;
+      margin-bottom: 1.999*$em;
+    }
+  }
+  p {
+    font-family: $text-sans;
+    font-weight: 500;
+    text-shadow: 0px 0px 2px $color-background-black;
+    @media screen and (min-width: $l) {
+      font-size: 1.414*$em;
+    }
+  }
+}
+.wrapper.feature.feature-pull {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(center);
+  display: flex;
+  @media screen and (min-width: $l) {
+    @include flex-direction(row);
+  }
+  img {
+    max-height: $s;
+    @media screen and (min-width: $l) {
+      margin-right: 5*$em;
+      max-height: none;
+      max-width: $s;
+    }
+  }
+  .item-centered {
+    margin: 0;
   }
 }

@@ -5,4 +5,29 @@ a {
   &:hover {
     color: $color-aqua-blue;
   }
+  &.button {
+    background: $color-orange;
+    border: 1px solid $color-dark-orange;
+    border-radius: 0;
+    color: $color-white;
+    cursor: pointer;
+    display: block;
+    font-size: .707*$em;
+    line-height: 1;
+    padding: .707*$em;
+    -webkit-appearance: none;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    max-width: $s;
+    width: 100%;
+    &:hover {
+      background: lighten($color-orange, 5);
+      text-decoration: none;
+    }
+    @media screen and (min-width: $m-l) {
+      font-size: $em;
+      padding: .707*$em 1.414*$em;
+    }
+  }
 }

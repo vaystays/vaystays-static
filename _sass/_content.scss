@@ -1,4 +1,4 @@
-.page-content {
+.page-content:not(.full) {
   background: $color-white;
   color: $color-darker-gray;
   font-family: $text-serif;
@@ -7,7 +7,37 @@
   max-width: 80*$em;
   width: 100%;
 }
-.page-content-with-sidebar {
+.page-content.explainer section {
+  font-family: $text-serif;
+  .wrapper {
+    padding: 2.828*$em $em;
+    margin: 0 auto;
+    max-width: 80*$em;
+    width: 100%;
+    @media screen and (min-width: $m-l) {
+      padding: 3.998*$em 1.999*$em;
+    }
+  }
+  &.highlight {
+    background: $color-white-gray;
+  }
+  &.lowlight {
+    background: $color-background-gray;
+  }
+  &.double-wide {
+    @include align-items(flex-start);
+    @include flex-direction(row);
+    @include justify-content(flex-start);
+    display: flex;
+    width: 100%;
+    .wrapper {
+      @media screen and (min-width: $m) {
+        min-height: $s;
+      }
+    }
+  }
+}
+.page-content-with-sidebar:not(.full) {
   @include align-items(flex-start);
   @include flex-direction(column);
   @include justify-content(flex-start);
@@ -43,5 +73,11 @@ font-weight: 500;
 .careers-content {
   ul {
     list-style: disc;
+  }
+}
+.ancillary {
+  display: none;
+  @media screen and (min-width: $m) {
+    display: block;
   }
 }

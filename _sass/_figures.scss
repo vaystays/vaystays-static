@@ -323,13 +323,26 @@ ul.separate {
   padding-left: 1.414*$em;
   max-width: $m;
 }
+ul.stack {
+  margin: auto;
+  max-width: $s;
+  text-align: center;
+  li {
+    i {
+      display: block;
+      height: 2*$em;
+      margin: 1.414*$em auto 0;
+      width: 2*$em;
+    }
+  }
+}
 .image-holder {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .item-centered {
-  @include align-items(center);
+  @include align-items(flex-start);
   @include flex-direction(column);
   @include justify-content(center);
   display: flex;
@@ -385,6 +398,26 @@ ul.separate {
     margin: 0;
   }
 }
+.wrapper.feature.feature-push {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(center);
+  display: flex;
+  @media screen and (min-width: $l) {
+    @include flex-direction(row-reverse);
+  }
+  img {
+    max-height: $s;
+    @media screen and (min-width: $l) {
+      margin-left: 5*$em;
+      max-height: none;
+      max-width: $s;
+    }
+  }
+  .item-centered {
+    margin: 0;
+  }
+}
 .software-header-icon {
   display: block;
   margin: 1.999*$em auto 0;
@@ -414,5 +447,83 @@ ul.separate {
       }
     }
 
+  }
+}
+.icon-paragraph {
+  @include align-items(center);
+  @include flex-direction(column);
+  @include justify-content(center);
+  display: flex;
+  @media screen and (min-width: $l) {
+    @include flex-direction(row);
+    @include justify-content(flex-start);
+    margin-top: 2.828*$em;
+  }
+  i {
+    height: 5*$em;
+    width: 5*$em;
+    @media screen and (min-width: $l) {
+      margin-right: 2.828*$em;
+    }
+  }
+}
+.growable img {
+  @media screen and (min-width: 680px) {
+    max-width: 400px !important;
+  }
+  @media screen and (min-width: 1024px) {
+    max-width: 680px !important;
+  }
+}
+.testimonial {
+  display: block;
+  position: relative;
+  @media screen and (min-width: $m-l) {
+    height: 24*$em;
+    padding-left: 33.33%;
+    &:before {
+      background-image: url("/assets/images/png/testimonial.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      content: "";
+      display: block;
+      left: 0;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: 33.33%;
+    }
+  }
+  blockquote {
+    &:before {
+      background-image: url("/assets/images/png/testimonial-head.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 50%;
+      content: "";
+      display: block;
+      margin: 0 auto 1.414*$em;
+      height: 10*$em;
+      width: 10*$em;
+    }
+    p {
+      @media screen and (min-width: $m) {
+        font-size: 1.414*$em;
+      }
+      @media screen and (min-width: $l) {
+        font-size: $em;
+      }
+      @media screen and (min-width: $xl) {
+        font-size: 1.414*$em;
+      }
+    }
+    author {
+      color: $color-medium-gray;
+      font-family: $text-sans;
+      font-weight: 500;
+      text-align: right;
+    }
   }
 }

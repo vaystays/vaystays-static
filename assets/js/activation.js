@@ -1,6 +1,6 @@
 $(document).ready(function(){
   ajaxFormSpreeForm($('.activation-mailer form'), $('.activation-mailer #mailer-response'));
-  ajaxFormSpreeForm($('.contact-mailer form'), $('.activation-mailer #mailer-response'));
+  ajaxFormSpreeForm($('.contact-mailer form'), $('.contact-mailer #mailer-response'));
 
   function ajaxFormSpreeForm($form, $resultElement) {
     $form.submit(function(e) {

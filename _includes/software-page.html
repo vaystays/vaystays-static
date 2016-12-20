@@ -8,20 +8,52 @@
 
 <section>
   <div class="wrapper">
-    <ul class="activation-steps">
-      <li>
-        <h3>Step 1: Contact <span class="software-provider">{{ include.software-visible }}</span></h3>
-        <p>Ask your <span class="software-provider">{{ include.software-visible }}</span> rep to activate Vaystays (VaystaysWHL) in your portal.</p>
-      </li>
-      <li>
-        <h3>Step 2: Activate Vaystays</h3>
-        <p>In your portal, activate Vaystays for distribution, and initiate any taxes and fees you want associated with your listings.</p>
-      </li>
-      <li>
-        <h3>Step 3: Let us know</h3>
-        <p>Reach out to Chad O’Farrell at <a href="mailto:chad@vaystays.com">chad@vaystays.com</a> to notify him of your activation.</p>
-      </li>
-    </ul>
+    {% if include.software == "escapia" %}
+      <ul class="activation-steps">
+        <li>
+          <h3>Step 1: Contact <span class="software-provider">{{ include.software-visible }}</span></h3>
+          <p>Find the “Vaystays.com-PPR” option in your software portal and activate for distribution.</p>
+        </li>
+        <li>
+          <h3>Step 2: Unit distribution</h3>
+          <p>Activate all properties that you wish to distribute through Vaystays.</p>
+        </li>
+        <li>
+          <h3>Step 3: Let us know</h3>
+          <p>Reach out to Chad O’Farrell at <a href="mailto:chad@vaystays.com">chad@vaystays.com</a> to notify him of your activation.</p>
+        </li>
+      </ul>
+    {% elsif include.software == "isi" %}
+      <ul class="activation-steps">
+        <li>
+          <h3>Step 1: Contact <span class="software-provider">{{ include.software-visible }}</span></h3>
+          <p>Find Vaystays in your software portal and activate for distribution.</p>
+        </li>
+        <li>
+          <h3>Step 2: Unit distribution</h3>
+          <p>Activate all properties that you wish to distribute through Vaystays.</p>
+        </li>
+        <li>
+          <h3>Step 3: Let us know</h3>
+          <p>Reach out to Chad O’Farrell at <a href="mailto:chad@vaystays.com">chad@vaystays.com</a> to notify him of your activation.</p>
+        </li>
+      </ul>
+    {% elsif include.software == "streamline" %}
+      <ul class="activation-steps">
+        <li>
+          <h3>Step 1: Contact <span class="software-provider">{{ include.software-visible }}</span></h3>
+          <p>Ask your <span class="software-provider">{{ include.software-visible }}</span> rep to activate Vaystays (VaystaysWHL) in your portal.</p>
+        </li>
+        <li>
+          <h3>Step 2: Activate Vaystays</h3>
+          <p>In your portal, activate Vaystays for distribution, and initiate any taxes and fees you want associated with your listings.</p>
+        </li>
+        <li>
+          <h3>Step 3: Let us know</h3>
+          <p>Reach out to Chad O’Farrell at <a href="mailto:chad@vaystays.com">chad@vaystays.com</a> to notify him of your activation.</p>
+        </li>
+      </ul>
+    {% endif %}
   </div>
 </section>
 

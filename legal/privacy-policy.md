@@ -13,7 +13,7 @@ This website is owned and operated by Vacation Rental Partners LLC. We have prov
 * We don't sell your information to partners, partners of partners, or anyone else - we're in the vacation rental business.
 * We spend a great deal of time and money securing your private information and comply with all web standards for security.
 * We hate spam as much as you do! If you don't want to hear from us you don't have to! Just let us know, or opt-out from communications using your account manager.
-* As always, if your experience with us doesn't fit with what you've read here please call us at [1-844-VAYSTAY (829-7829)](tel:18448297829) or [email](mailto:customerservice@vaystays.com) us.
+* As always, if your experience with us doesn't fit with what you've read here please call us at [1-844-VAYSTAY (829-7829)](tel:18448297829) or [email](mailto:help@vaystays.com) us.
 
 The effective date of this policy is: July 15, 2014
 

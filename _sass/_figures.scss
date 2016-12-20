@@ -348,6 +348,12 @@ ul.stack {
   display: flex;
   margin: auto;
   max-width: $s-m;
+  &.text-centered {
+    & > .button {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 #book-form {
   .wrapper {
@@ -539,12 +545,6 @@ ul.stack {
     display: block;
     padding: 2.828*$em $em;
     width: 100%;
-    @media screen and (min-width: $m) {
-      width: 50%;
-    }
-    @media screen and (min-width: $xl) {
-      width: 25%;
-    }
     &:nth-of-type(1),
     &:nth-of-type(4) {
       background: $color-link-blue;
@@ -560,14 +560,37 @@ ul.stack {
       display: block;
       float: left;
       padding-top: calc(100% - 58.468px);
+    }
+    &.picture-fill {
+      display: none;
       @media screen and (min-width: $l) {
-        padding-top: calc(50% - 58.468px);
+        background-image: url("/assets/images/png/features-list.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        width: 66.67%;
+        &:before {
+          padding-top: calc(50% - 74.468px);
+        }
       }
       @media screen and (min-width: $xl) {
-        padding-top: calc(100% - 58.468px);
+        display: none;
       }
-      @media screen and (min-width: $xxl) {
-        padding-top: calc(75% - 58.468px);
+    }
+    @media screen and (min-width: $m) {
+      width: 50%;
+    }
+    @media screen and (min-width: $l) {
+      width: 33.33%;
+      &:nth-of-type(4) {
+        background: $color-aqua-blue;
+      }
+    }
+    @media screen and (min-width: $xl) {
+      width: 25%;
+      &:nth-of-type(4) {
+        background: $color-link-blue;
       }
     }
     h3 {
@@ -579,4 +602,42 @@ ul.stack {
       margin-bottom: 1.999*$em;
     }
   }
+}
+img.grow {
+  display: block;
+  margin: 1.999*$em auto 0;
+  max-width: $m-l;
+  width: 100%;
+}
+.credit-cards {
+  margin: 1.999*$em auto;
+  max-width: $s-m;
+  ul {
+    @include align-items(center);
+    @include flex-direction(row);
+    @include justify-content(center);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    li {
+      width: 16%;
+      @media screen and (min-width: $l) {
+        width: 33%;
+      }
+      @media screen and (min-width: $xl) {
+        width: 16%;
+      }
+      img {
+        margin: 0 $em $em 0 !important;
+        max-width: none !important;
+      }
+    }
+  }
+}
+.img-sm {
+  max-width: 240px;
+  margin: 1.999*$em auto 0;
+}
+.big-feature {
+  max-width: 50% !important;
 }

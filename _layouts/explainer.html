@@ -5,6 +5,9 @@
     {% include preheader.html %}
     {% include header.html %}
     {% include nav.html %}
+    {% if page.jumbotron %}
+      {% include jumbotron.html %}
+    {% endif %}
     <main class="page-content full explainer">
       {{ content }}
     </main>

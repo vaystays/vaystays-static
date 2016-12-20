@@ -428,7 +428,8 @@ ul.stack {
   display: block;
   margin: 1.999*$em auto 0;
 }
-.activation-mailer {
+.activation-mailer,
+.contact-mailer {
   margin: auto;
   max-width: $m;
   .form-group {
@@ -640,4 +641,51 @@ img.grow {
 }
 .big-feature {
   max-width: 50% !important;
+}
+
+.contact-info {
+  .contact-list {
+    border-bottom: 1px solid $color-light-gray;
+    margin: auto;
+    max-width: $s;
+    li {
+      @include align-items(flex-start);
+      @include flex-direction(row);
+      @include justify-content(space-between);
+      display: flex;
+      margin: 0 auto 1.414*$em;
+      a {
+        text-align: right;
+      }
+    }
+  }
+  .site-social-links {
+    margin: 1.414*$em auto 0;
+    width: 50%;
+    ul {
+      @include align-items(center);
+      @include flex-direction(row);
+      @include justify-content(space-between);
+      display: flex;
+      width: 100%;
+      a:hover {
+        .icon.icon-facebook {
+          background-image: url('/assets/images/svg/icon_facebook_brand.svg');
+        }
+        .icon.icon-twitter {
+          background-image: url('/assets/images/svg/icon_twitter_brand.svg');
+        }
+        .icon.icon-instagram {
+          background-image: url('/assets/images/svg/icon_instagram_brand.svg');
+        }
+        .icon.icon-pinterest {
+          background-image: url('/assets/images/svg/icon_pinterest_brand.svg');
+        }
+      }
+      .icon {
+        height: 1.414*$em;
+        width: 1.414*$em;
+      }
+    }
+  }
 }

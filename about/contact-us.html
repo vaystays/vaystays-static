@@ -1,0 +1,86 @@
+---
+layout: explainer
+title: Contact Us
+permalink: /contact-us/
+jumbotron: /assets/images/png/team
+---
+<section class="highlight">
+  <div class="wrapper feature-centered">
+    <h2>Contact us.</h2>
+    <h3>We'd love to hear from you.</h3>
+    <p>Fill out the contact form below, or contact our team via email or telephone.  We're here 8am-9pm CST Monday through Friday, and 11am-5pm CST Saturday and Sunday.</p>
+  </div>
+</section>
+
+<section class="two-1-2">
+  <section>
+    <div class="wrapper feature-centered">
+      <figure class="contact-mailer">
+        <form method="POST" action="http://formspree.io/customerservice@vaystays.com" novalidate>
+          <div class="form-element">
+            <label for="name">Full name</label>
+            <input type="text" value="" name="name" class="required" placeholder="Jane Smith">
+          </div>
+
+          <div class="form-group group-2">
+            <div class="form-element">
+              <label for="email">Email address</label>
+              <input type="email" value="" name="email" class="required email" id="form-email" placeholder="guest@vaystays.com">
+            </div>
+
+            <div class="form-element">
+              <label for="phone">Phone number <small>(Optional)</small></label>
+              <input type="tel" value="" name="phone" class="phone" id="form-phone" placeholder="1 (123) 123-1234">
+            </div>
+          </div>
+
+          <div class="form-element">
+            <label for="message">Your message</label>
+            <textarea value="" name="message" class="required" rows="6"></textarea>
+          </div>
+
+          <input type="hidden" name="_next" value="/thank-you" />
+          <input type="hidden" name="_subject" value="New submission on Vaystays Contact Us Page" />
+          <input type="text" name="_gotcha" style="display:none" />
+          <div class="response" id="mailer-response">
+             <br>
+          </div>
+          <input type="submit" value="Submit" name="submit" class="button">
+        </form>
+        <script type="text/javascript" src="/assets/js/activation.js"></script>
+      </figure>
+    </div>
+  </section>
+  <section>
+    <div class="wrapper feature-centered contact-info">
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Toll-free</span>
+          <a href="tel:18448297829" title="Call Vaystays customer service at 18448297829">+1 (844) 829-7879</a>
+        </li>
+        <li>
+          <span class="contact-label">International</span>
+          <a href="tel:13128785472" title="Call Vaystays customer service at 18448297829">+1 (312) 878-4572</a>
+        </li>
+        <li>
+          <span class="contact-label">Email</span>
+          <a href="mailto:customerservice@vaystays.com" title="Email Vaystays customer service at customerservice@vaystays.com">customerservice@vaystays.com</a>
+        </li>
+        <li>
+          <span class="contact-label">Chat</span>
+          <a href="#" class="intercom-toggle" title="Chat with Vaystays customer service now">Chat now</a>
+        </li>
+        <li>
+          <span class="contact-label">Address</span>
+          <a href="https://goo.gl/maps/bNkxrLTudbG2" target="_blank">
+            <address>222 West Ontario Street</br>
+            Suite 320</br>
+            Chicago, Illinois, USA</address>
+          </a>
+        </li>
+
+      </ul>
+      {% include social-links.html %}
+    </div>
+  </section>
+</section>

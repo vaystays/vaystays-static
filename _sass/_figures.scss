@@ -347,7 +347,7 @@ ul.stack {
   @include justify-content(center);
   display: flex;
   margin: auto;
-  max-width: $s-m;
+  max-width: $m;
   &.text-centered {
     & > .button {
       margin-left: auto;

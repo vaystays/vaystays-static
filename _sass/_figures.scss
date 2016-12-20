@@ -642,7 +642,9 @@ img.grow {
 .big-feature {
   max-width: 50% !important;
 }
-
+.contact-mailer .button {
+  margin: auto !important;
+}
 .contact-info {
   .contact-list {
     border-bottom: 1px solid $color-light-gray;
@@ -659,7 +661,7 @@ img.grow {
       }
       .contact-label {
         font-family: $text-sans;
-        font-weight: 600;
+        font-weight: 500;
       }
     }
   }
